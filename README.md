@@ -5,6 +5,6 @@ access other contents @
 
 <details>
 <summary>Example</summary>
-<ul><li>This dropdown contains</li>
+<ul><li><url>https://amaiesc.github.io/study_r/Chap1.html</url></li>
 <li>a list!</li></ul>
 </details>
