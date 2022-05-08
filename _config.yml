@@ -2,3 +2,8 @@ theme: jekyll-theme-minimal
 title: Amaie's homepage
 description: I love cats!!!
 markdown: kramdown
+
+* Chapter I
+
+|[Click here](https://github.com/)|[Or here](https://github.com/)|[Or here](https://github.com/)|
+|---|---|---|
