@@ -2,10 +2,10 @@ theme: jekyll-theme-minimal
 title: Cat Rules the World
 logo: /docs/IMG_7395.JPG
 
-affiliation: Cat Planet
-email: amaiesc@gmail.com
-github_link: https://github.com/amaiesc/study_r
-linkedin: https://www.linkedin.com/amaiesc
+[github_link](https://github.com/amaiesc/study_r)
+[email](amaiesc@gmail.com)
+
+l[inkedin](https://www.linkedin.com/amaiesc)
 
 description: gimme food!
 
