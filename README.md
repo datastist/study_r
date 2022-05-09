@@ -16,13 +16,26 @@ _________________________________________________________
     -   TBC
 
 - **R for Statistical Analysis**
+    - Linear Regression
+    - Multiple Regression
+    - Moderation Analysis
+    - Mediation Analysis
+    - Path Analysis
+    - Structural Equation Modelling
+    - Multi-level Modelling
+    - 
+
+- **Missing Data Analysis**
+    - 
+
+
+- **Time Series Analysis**
     - TBC
 
--   **Missing Data Analysis**
-    -  [My data and Analysis with R (cat’s thesis)](https://amaiesc.github.io/study_r/script_thesis.html)
 
-- **Manitude and Time Series Analysis**
-    - TBC
+- **My Personal Projects**
+    - [My data and Analysis with R (cat’s thesis)](https://amaiesc.github.io/study_r/script_thesis.html)
+
     
 
 I do not have any lecture videos and do not write any contents outside Github.com. So, so if you find my github.io useful, you can click a big **D** down here to see information about donation.
