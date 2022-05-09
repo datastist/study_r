@@ -829,3 +829,14 @@ sqrt(mean(Covid_th_can_20$cases))
 ที่ให้ข้อมูลเชิงซับซ้อนได้มากขึ้นในบทต่อไป :)
 
 `Happy Coding —-)`
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/amaiesc" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @amaiesc on GitHub">Follow @amaiesc</a>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/sponsors/amaiesc" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Sponsor @amaiesc on GitHub">Sponsor</a>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
