@@ -33,7 +33,7 @@ Latest commit 68c9175 on Nov 2, 2017
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 12px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
   font-weight:400;
 }
@@ -132,7 +132,7 @@ th {
 }
 
 img {
-  max-width:100%;
+  max-width:90%;
 }
 
 header {
@@ -202,7 +202,7 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  width:7000px;
   float:right;
   padding-bottom:50px;
 }
