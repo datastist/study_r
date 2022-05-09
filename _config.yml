@@ -1,10 +1,5 @@
 theme: jekyll-theme-minimal
-title: Cat Rules the World Already!!
+title: Cat Rules the World!
 description: I love cats!!!
 markdown: kramdown
 logo: /docs/IMG_7395.JPG
-
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
