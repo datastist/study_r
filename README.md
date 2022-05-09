@@ -34,4 +34,4 @@ I do not have any lecture videos and do not write any contents outside Github.co
 
 _________________________________________________________
 
-[![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/Donate250x250.png)](http://amaiesc.github.io/study_r/donation.html)
+[![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donate150x150.png)](http://amaiesc.github.io/study_r/donation.html)
