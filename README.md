@@ -17,4 +17,3 @@ below
 
     -  [My data and Analysis with R (cat’s thesis)](https://amaiesc.github.io/study_r/script_thesis.html)
 
-![GitHub Light](https://github.com/github-light.png#gh-dark-mode-only)
