@@ -1,8 +1,8 @@
----
+
 title: "Visualization (ggplot2) with R"
 author: "Sirinapa"
 date: "Nov 22, 2021"
----
+
 
 การสร้างภาพข้อมูลหรือ Data Visualization
 ช่วยให้เราเข้าใจชุดข้อมูลที่มีความซับซ้อนได้ง่ายขึ้นและทำให้เราตัดสินใจในการจัดการกับข้อมูลเร็วขึ้น
@@ -142,7 +142,7 @@ x และ y โดยลักษณะของตัวแปรนี้จ
 ggplot(data = mtcars, aes(x = am, y = mpg))
 ```
 
-![](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/unnamed-chunk-4-1.png)
+![1](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/unnamed-chunk-4-1.png)
 
 ถ้าเรา `run` คำสั่งข้างต้น เราจะพบว่า กราฟฟิคมีเพียง `background` (หรือ
 `coordinate system`) และชื่อตัวแปรของเราเท่านั้น
