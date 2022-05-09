@@ -1,11 +1,10 @@
 # study_r
 
-Github webpage นี้เอาไว้สอนแมวเขียน R program
-สามารถเข้าดูโดยใช้อุ้งเท้ากดด้านล่างนี้จ้า
+This Github webpage is for Cats, try using your paws to click topics below
 
 <lists>
-<summary> แมว: บทความเริ่มต้น (basic) </summary>
- <ul><li><a href="https://amaiesc.github.io/study_r/getting_to_know_R.html"> ทำความรู้จัก R กัน </a> 
+<summary> R Beginning for Cats </summary>
+ <ul><li><a href="https://amaiesc.github.io/study_r/getting_to_know_R.html"> Paws for R </a> 
 <li> TBC </li>
 <li> TBC </li> </lists>
   
