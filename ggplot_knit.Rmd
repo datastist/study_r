@@ -1,12 +1,7 @@
 ---
-title: "R"
+title: "Data Visualization with GGplot2"
 author: "Sirinapa"
-date: "March 22, 2005"
-output:
-  html_document:
-    df_print: paged
-  md_document:
-    variant: markdown_github
+date: "November 22, 2022"
 ---
 
 ```{r setup, include=FALSE}
