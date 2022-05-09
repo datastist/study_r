@@ -123,7 +123,7 @@ output ด้านบนนี้
 ข้อมูลที่เราได้จาก database หรือการเก็บมาเองจะมีลำดับของมาตรส่วน
 หรือที่เรียกว่า Level of Measurements
 
-![levels](=%22https://raw.githubusercontent.com/amaiesc/study_r/master/docs/levels.png)
+<img src="https://raw.githubusercontent.com/amaiesc/study_r/master/docs/levels.png" alt="levels">
 
 ใน R เราจะรู้จัก `level` เหล่านี้ได้ในอีกรูปแบบต่างออกไปคือ
 `Qualitative = Factor` ซึ่งส่วนใหญ่นักวิจัยหรือนักวิเคราะห์จะ `key`
@@ -735,7 +735,7 @@ Noted คำสั่ง `identical()`
 โดยทั่วไปแล้ว การที่เราคัดกรองข้อมูลจะมีความเข้าใจพื้นฐาน
 โดยสามารถคิดตามจากภาพด้านล่างนี้
 
-![cond](=%22https://raw.githubusercontent.com/amaiesc/study_r/master/docs/logical_condition.png)
+<img src="https://raw.githubusercontent.com/amaiesc/study_r/master/docs/levels.png" alt="levels">
 
 **สมมติ**ว่ามี data 2 ชุด เราต้องการเลือก ชุดข้อมูลบางชุดใน A และ
 ชุดข้อมูลบางชุดใน B ถ้าเราต้องการทั้งหมด เราจะใช้ **หรือ** สัญลักษณ์ `|`
