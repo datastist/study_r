@@ -15,13 +15,13 @@ _________________________________________________________
         package](https://amaiesc.github.io/study_r/ggplot_knit.html)
     -   TBC
 
-- **Psychology Topics**
+- **R for Statistical Analysis**
     - TBC
 
--   **Other Contents**
+-   **Missing Data Analysis**
     -  [My data and Analysis with R (cat’s thesis)](https://amaiesc.github.io/study_r/script_thesis.html)
 
-- **Interesting Open-resourced Cats**
+- **Manitude and Time Series Analysis**
     - TBC
     
 
