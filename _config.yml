@@ -3,3 +3,14 @@ title: Cat Rules the World!
 description: I love cats!!!
 markdown: kramdown
 logo: /docs/IMG_7395.JPG
+
+title: Sirinapa
+affiliation: Your Affiliation
+email: amaiesc@gmail.com
+github_link: https://github.com/amaiesc/study_r
+linkedin: https://www.linkedin.com/amaiesc
+avatar: /docs/IMG_7395.JPG
+
+description: ________________________________________
+canonical: https://minimal-light.yyliu.net/
+remote_theme: yaoyao-liu/minimal-light
