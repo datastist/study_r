@@ -131,6 +131,8 @@ output ด้านบนนี้
 
 ![levels](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/levels.png)
 
+<img src="https://raw.githubusercontent.com/amaiesc/study_r/master/docs/levels.png" alt="levels">
+
 ใน R เราจะรู้จัก `level` เหล่านี้ได้ในอีกรูปแบบต่างออกไปคือ
 `Qualitative = Factor` ซึ่งส่วนใหญ่นักวิจัยหรือนักวิเคราะห์จะ `key`
 ข้อมูลเหล่านี้เป็นตัวอักษร หรือ `charactor` และ `Quantitative = Numeric`
@@ -742,6 +744,8 @@ Noted คำสั่ง `identical()`
 โดยสามารถคิดตามจากภาพด้านล่างนี้
 
 ![cond](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/logical_condition.png)
+
+<img src="https://raw.githubusercontent.com/amaiesc/study_r/master/docs/logical_condition.png" alt="cond">
 
 **สมมติ**ว่ามี data 2 ชุด เราต้องการเลือก ชุดข้อมูลบางชุดใน A และ
 ชุดข้อมูลบางชุดใน B ถ้าเราต้องการทั้งหมด เราจะใช้ **หรือ** สัญลักษณ์ `|`
