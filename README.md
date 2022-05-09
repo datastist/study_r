@@ -1,7 +1,9 @@
 [![Github](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/github.png)](http://amaiesc.github.io/study_r)
 [![E-mail](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/email.png)](amaiesc@gmail.com)
 [![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/linkedin.png)](https://linkedin.com/in/sirinapa-amaie-churassamee-671a63109)
------------------------------------------------------------------------------------------------------------------------
+_________________________________________________________
+
+
 ## Study_r
 
 This Github webpage is for Cats, try using your paws to click topics
@@ -26,7 +28,7 @@ below
 
 
 
-I do not have any lecture videos and do not write any contents outside Github.com, so if you find my github.io useful, you can click a big **D(onation)** down here to see more information.
+I do not have any lecture videos and do not write any contents outside Github.com, so if you find my github.io useful, you can click a big **D** down here to see more information.
 
 
 Thank you!
