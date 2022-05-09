@@ -1,6 +1,5 @@
 Basic R for Cats
 ================
-sirinapa
 07/05/2023
 
 # การใช้ R ขั้นพื้นฐานสำหรับการวิเคราะห์ทางสถิติ
@@ -130,7 +129,7 @@ output ด้านบนนี้
 ข้อมูลที่เราได้จาก database หรือการเก็บมาเองจะมีลำดับของมาตรส่วน
 หรือที่เรียกว่า Level of Measurements
 
-![](images/Dis.png)
+![levels](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/levels.png)
 
 ใน R เราจะรู้จัก `level` เหล่านี้ได้ในอีกรูปแบบต่างออกไปคือ
 `Qualitative = Factor` ซึ่งส่วนใหญ่นักวิจัยหรือนักวิเคราะห์จะ `key`
@@ -742,7 +741,7 @@ Noted คำสั่ง `identical()`
 โดยทั่วไปแล้ว การที่เราคัดกรองข้อมูลจะมีความเข้าใจพื้นฐาน
 โดยสามารถคิดตามจากภาพด้านล่างนี้
 
-![](images/Dis%20(1).png)
+![cond](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/logical_condition.png)
 
 **สมมติ**ว่ามี data 2 ชุด เราต้องการเลือก ชุดข้อมูลบางชุดใน A และ
 ชุดข้อมูลบางชุดใน B ถ้าเราต้องการทั้งหมด เราจะใช้ **หรือ** สัญลักษณ์ `|`
