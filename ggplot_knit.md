@@ -10,12 +10,10 @@
 ที่ช่วยให้เราสามารถสร้างกราฟิคได้หลากหลาย และสามารถปรับแต่งรูปแบบต่าง ๆ
 ได้ในแบบที่ต้องการ
 
-``` r
 #load packages
-library(ggplot2)
-library(psych)
-library(Rmisc)
-```
+#library(ggplot2)
+#library(psych)
+#library(Rmisc)
 
 ## Mtcars data
 
