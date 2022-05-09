@@ -731,7 +731,7 @@ Noted คำสั่ง `identical()`
 โดยทั่วไปแล้ว การที่เราคัดกรองข้อมูลจะมีความเข้าใจพื้นฐาน
 โดยสามารถคิดตามจากภาพด้านล่างนี้
 
-<img src="https://raw.githubusercontent.com/amaiesc/study_r/master/docs/levels.png" alt="levels">
+<img src="https://raw.githubusercontent.com/amaiesc/study_r/master/docs/logical_condition.png" alt="cond">
 
 **สมมติ**ว่ามี data 2 ชุด เราต้องการเลือก ชุดข้อมูลบางชุดใน A และ
 ชุดข้อมูลบางชุดใน B ถ้าเราต้องการทั้งหมด เราจะใช้ **หรือ** สัญลักษณ์ `|`
@@ -817,4 +817,5 @@ sqrt(mean(Covid_th_can_20$cases))
 แต่เดี๋ยวเราจะได้เริ่มใช้ `packages`
 ที่ให้ข้อมูลเชิงซับซ้อนได้มากขึ้นในบทต่อไป :)
 
-`Happy Coding —-)`
+```diff
+@@ Happy Coding :) @@
