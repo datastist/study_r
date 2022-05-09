@@ -1,7 +1,7 @@
 [![Github](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/github.png)](http://amaiesc.github.io/study_r)
 [![E-mail](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/email.png)](mailto::amaiesc@gmail.com)
 [![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/linkedin.png)](https://linkedin.com/in/sirinapa-amaie-churassamee-671a63109)
-[![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donate150x150.png)](http://amaiesc.github.io/study_r/donation.html)
+
 _________________________________________________________
 
 # Study_r
@@ -40,11 +40,11 @@ _________________________________________________________
     
 
 I do not have any lecture videos and do not write any contents outside Github.com. 
-So, so if you find my github.io useful, you can click a big **D** at the top of this content  to see information about donation.
+So, so if you find my github.io useful, you can click a big **D** below this content to see information about donation.
 
 
 ```diff
 @@ Thank you!@@ , Sirinapa Churassamee
 ```
 _________________________________________________________
-
+[![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donate150x150.png)](http://amaiesc.github.io/study_r/donation.html) 
