@@ -35,4 +35,4 @@ Thank you!
 
 _________________________________________________________
 
-[![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/Donate250x250.png)](http://amaiesc.github.io/study_r/)
+[![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/Donate250x250.png)](http://amaiesc.github.io/study_r/donation.html)
