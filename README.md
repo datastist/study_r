@@ -15,4 +15,4 @@ below
 
 -   **Other Contents**
 
-    -   My data and Analysis with R (cat’s thesis)
+    -  [My data and Analysis with R (cat’s thesis)](https://amaiesc.github.io/study_r/ggplot_knit.html)
