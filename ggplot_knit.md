@@ -1,8 +1,5 @@
 
-title: "Visualization (ggplot2) with R"
-author: "Sirinapa"
-date: "Nov 22, 2021"
-
+# Data Visualization with ggplot2
 
 การสร้างภาพข้อมูลหรือ Data Visualization
 ช่วยให้เราเข้าใจชุดข้อมูลที่มีความซับซ้อนได้ง่ายขึ้นและทำให้เราตัดสินใจในการจัดการกับข้อมูลเร็วขึ้น
