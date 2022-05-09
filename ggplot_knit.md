@@ -1,3 +1,9 @@
+---
+title: "Visualization (ggplot2) with R"
+author: "Sirinapa"
+date: "Nov 22, 2021"
+---
+
 การสร้างภาพข้อมูลหรือ Data Visualization
 ช่วยให้เราเข้าใจชุดข้อมูลที่มีความซับซ้อนได้ง่ายขึ้นและทำให้เราตัดสินใจในการจัดการกับข้อมูลเร็วขึ้น
 ซึ่ง Data Visualization สามารถทำได้ทั้งก่อนและหลังการวิเคราะห์เชิงสถิติ
@@ -669,5 +675,6 @@ RColorBrewer::display.brewer.all()
 ```
 
 ![](ggplot_knit_files/figure-markdown_github/unnamed-chunk-16-1.png)
-\*this tutorial was in associated with Psychology Faculty, Chulalongkorn
+
+*this tutorial was in associated with Psychology Faculty, Chulalongkorn
 University in Experimental Design And Analysis course.
