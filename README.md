@@ -3,11 +3,9 @@
 [![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/linkedin.png)](https://linkedin.com/in/sirinapa-amaie-churassamee-671a63109)
 _________________________________________________________
 
+# Study_r
 
-## Study_r
-
-This Github webpage is for Cats, try using your paws to click topics
-below
+#### This Github webpage is for Cats, try using your paws to click topics
 
 -   **R beginning for Cats**
 
@@ -25,13 +23,14 @@ below
 
 - **Interesting Open-resourced Cats**
     - TBC
+    
+
+I do not have any lecture videos and do not write any contents outside Github.com. So, so if you find my github.io useful, you can click a big **D** down here to see information about donation.
 
 
-
-I do not have any lecture videos and do not write any contents outside Github.com, so if you find my github.io useful, you can click a big **D** down here to see more information.
-
-
-Thank you!
+```diff
+@@ Thank you!@@
+```
 
 _________________________________________________________
 
