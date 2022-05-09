@@ -1,0 +1,324 @@
+---
+title: "R"
+author: "Sirinapa"
+date: "March 22, 2005"
+output:
+  html_document:
+    df_print: paged
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+การสร้างภาพข้อมูลหรือ Data Visualization ช่วยให้เราเข้าใจชุดข้อมูลที่มีความซับซ้อนได้ง่ายขึ้นและทำให้เราตัดสินใจในการจัดการกับข้อมูลเร็วขึ้น ซึ่ง Data Visualization สามารถทำได้ทั้งก่อนและหลังการวิเคราะห์เชิงสถิติ
+
+การสร้างภาพข้อมูลใน `R` สามารถทำได้จากหลากหลาย package ซึ่งใน tutorial นี้เราจะใช้ package `ggplot2` ซึ่งเป็น package ที่ช่วยให้เราสามารถสร้างกราฟิคได้หลากหลาย และสามารถปรับแต่งรูปแบบต่าง ๆ ได้ในแบบที่ต้องการ
+
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+#load packages
+library(ggplot2)
+library(psych)
+library(Rmisc)
+```
+
+## Mtcars data
+
+ใน tutorial นี้เราจะใช้ข้อมูลที่มีอยู่แล้วใน package `ggplot2` ชื่อว่า `mtcars` ในการสร้างกราฟฟิค \
+หลังจาก import `mtcars` ลงมาแล้ว เราสามารถเซ็ตค่าตัวแปรได้ตามนี้
+
+```{r echo=TRUE, warning=FALSE, paged.print=FALSE}
+data("mtcars")
+
+mtcars$vs <- factor(mtcars$vs, labels = c("V", "S"))
+mtcars$am <- factor(mtcars$am, labels = c("automatic", "manual"))
+mtcars$cyl  <- as.factor(mtcars$cyl)
+mtcars$gear <- as.factor(mtcars$gear)
+mtcars$carb <- as.factor(mtcars$carb)
+
+psych::describe(mtcars)
+```
+
+โดยข้อมูลประกอบไปด้วย\
+`mpg` - จำนวนแกลลอนของน้ำต่อ 1 ไมล์\
+`cyl` - จำนวนกระบอกสูบ\
+`disp` - ความจุของเครื่องยนต์ (ลูกบาศก์นิ้ว)\
+`hp` - แรงม้า\
+`drat` - สัดส่วนของเพลากลางของรถ\
+`wt` - น้ำหนัก\
+`qsec` - ความเร่ง\
+`vs` - รูปร่างของเครื่องยนต์ 'V' หรือ 'S'\
+`am` - ระบบเกียร์อัตโนมัติ (auto) หรือ เกียร์กระปุก (manual)\
+`gear` - จำนวนเกียร์\
+`carb` - จำนวนตัวเผาไหม้เครื่องยนต์
+
+## Ggplot2 Package
+
+Ggplot2 เป็น package ในรูปแบบของ Grammar of Graphic ที่ความยืดหยุ่น ซึ่งในการเขียนคำสั่งของ `ggplot2` นั้น จะมีลักษณะเป็นการเรียงคำสั่งในแต่ละขั้น \
+โดยปกติแล้ว คำสั่งที่ใช้งานพื้นฐานจะประกอบไปด้วย
+
+-   `data` - การเรียกข้อมูลที่ใช้งาน
+
+-   `aesthetic mappings` - การเลือกตัวแปรที่จะปรากฎอยู่ในกราฟ
+
+-   `geometric objects` - การเลือกวิธีการสร้างกราฟฟิค
+
+-   `Customizing` เช่น การใส่ชื่อ เลือกธีม หรือลงสีให้กราฟ
+
+นอกจากนี้ยังมีคำสั่งอื่น ๆ ที่มีความซับซ้อนมากขึ้น หากเราเริ่มคุ้นเคยกับคำสั่งพื้นฐานแล้ว เราสามารถศึกษาเพิ่มเติมให้กราฟฟิคมีความสวยงามและตรงตามความต้องการของเรามากขึ้นได้
+
+## การสร้างกราฟ
+
+ก่อนที่เราจะสร้างกราฟ เราควรสังเกตตัวแปรที่เราต้องการนำมาสร้างว่าเป็นตัวแปรลักษณะใด โดยสามารถใช้คำสั่ง `str()`
+
+```{r echo=TRUE, warning=FALSE, paged.print=FALSE}
+str(mtcars)
+
+```
+
+หลักการในการสร้างกราฟฟิคคือ การสังเกตจำนวนตัวแปรและลักษณะของตัวแปรในแกน x และ y โดยลักษณะของตัวแปรนี้จะเป็นการคัดรูปแบบกราฟของเรา \
+ใน tutorial นี้เราจะเรียนรู้สร้าง boxplot, bar graph และ line graph ค่ะ
+
+### การสร้าง boxplot
+
+ในการสร้าง boxplot (หรือกราฟลักษณะอื่น ๆ) เราจะเริ่มกันที่การสร้างคำสั่งพื้นฐาน คือ `data` และ `aesthetic mappings` \
+โดยคำสั่งทั่วไปคือ `ggplot(data = ชื่อไฟล์, aes(x = ตัวแปรแกน x, y = ตัวแปรแกน y)`
+
+คำสั่ง `aes()` สามารถเซ็ตค่าอื่น ๆ ได้ เช่น
+
+-   ตำแหน่งของตัวแปร (`x =` และ `y =` )
+
+-   สี: โดย `color=` เป็นสีเส้นขอบ และ `fill=` เป็นสีด้านใน
+
+-   `shape =` รูปร่างของจุดข้อมูล และ `size =`ขนาดของจุดข้อมูล
+
+```{r echo=TRUE, warning=FALSE, paged.print=FALSE}
+
+ggplot(data = mtcars, aes(x = am, y = mpg))
+```
+
+ถ้าเรา `run` คำสั่งข้างต้น เราจะพบว่า กราฟฟิคมีเพียง `background` (หรือ `coordinate system`) และชื่อตัวแปรของเราเท่านั้น ดังนั้นเราจึงจำเป็นต้องเขียนคำสั่งว่าเราต้องการให้กราฟออกมาเป็นรูปแบบใด (สามารถเข้าไปดูรูปแบบทั้งหมดได้ที่ `help.search("geom_", package = "ggplot2")`
+
+สำหรับการสร้าง boxplot เราจะใช้คำสั่ง `geom_boxplot()` เพื่อเซ็ตค่า `geometric objects`
+
+```{r echo=TRUE, warning=FALSE, paged.print=FALSE}
+ggplot(data = mtcars, aes(x = am, y = mpg)) +
+  geom_boxplot()
+
+```
+
+จะเห็นว่ากราฟ boxplot ที่สร้างขึ้นมามีเพียงตัวแปร x และ y หากเราต้องการจัดกลุ่มตัวแปร เราสามารถใช้คำสั่ง `fill = ตัวแปรจัดกลุ่ม` ใน `aesthetic mapping` เพื่อให้มีการจัดกลุ่มของตัวแปรในกราฟ
+
+```{r echo=TRUE, warning=FALSE, paged.print=FALSE}
+ggplot(data = mtcars, aes(x = am, y = mpg, fill = vs)) +
+  geom_boxplot()
+```
+
+หากเราต้องการให้กราฟมีสีสันและชื่อแกนตามที่เราต้องการ เราสามารถเขียนคำสั่งต่อจาก คำสั่ง geometric ได้
+
+ตัวอย่างคำสั่งอื่น ๆ ในการปรับแต่งกราฟ
+
+-   **เพิ่มลักษณะกราฟฟิค:**
+
+    -   หากเราอยากให้ `ggplot2` สร้างจุดข้อมูลในกราฟของเรา เราสามารถสั่งคำสั่ง `geom_jitter()` หลังจาก geometric objects หลักของเราได้
+
+-   **ตกแต่งกราฟ:**
+
+    -   ใช้คำสั่ง `alpha = ค่าโปรงใส` เพื่อเพิ่มความโปร่งใสของกราฟ
+
+    -   ใช้คำสั่ง `width = ค่าความกว้างของกราฟ` ในการกำหนดความกว้างของกราฟ
+
+-   **เพิ่มชื่อ:**
+
+    -   **แกน x และ y**: ใช้คำสั่ง `xlab = "ชื่อแกน x"` และ `ylab = "ชื่อแกน y"`
+
+    -   **ชื่อหัวกราฟ:** ใช้คำสั่ง `ggtitle("ชื่อหัวกราฟ")`
+
+-   **เลือกใช้ theme:**
+
+    -   **ธีมของกราฟ:** ใช้คำสั่ง `theme_` ในการเลือกใช้ theme โดย คำสั่ง `theme_classic` จะใกล้เคียงกับ APA
+
+    -   **สีของกราฟ:**
+
+        -   เลือกจาก palette ที่มีชุดคำสั่งสี
+
+            -   สีเส้นขอบ: `scale_color_brewer(palette = "ชื่อ palette ที่ต้องการ")`
+
+            -   สีช่องในกล่องหรือคอลัมน์: `scale_fill_brewer(palette = "ชื่อ palette ที่ต้องการ")`
+
+        -   เลือกสีเอง
+
+            -   สีเส้นขอบ: `scale_color_manual(values=c("สีที่1", "สีที่2", "สีที่3"))`
+
+            -   สีช่องในกลุ่มหรือคอลัมน์: `scale_fill_manual(values=c("สีที่1", "สีที่2", "สีที่3"))`
+
+*Note*: หากเลือกสีเอง จำนวนสีต้องเท่ากับจำนวนกลุ่มตัวแปรที่ต้องการจะให้มีสี
+
+```{r echo=TRUE, warning=FALSE, paged.print=FALSE}
+
+ggplot(data = mtcars, aes(x = am, y = mpg, fill = vs)) +
+  geom_boxplot(alpha = 0.7, width = 0.6) +
+  geom_jitter(alpha = 0.2, size = 2) +
+  xlab("Types of Gear transmissions") +
+  ylab("Miles per Gallon") +
+  ggtitle("Motor Trend Car Road Tests") +
+  theme_classic() +
+  scale_color_brewer(palette="Accent") +
+  scale_fill_brewer(palette="Accent")
+
+```
+
+จะเห็นได้ว่าสีของกล่องข้อมูลเปลี่ยนไปตามที่เราตั้งค่าไว้ และมีการแสดงของจุดข้อมูลที่มาจากชุดคำสั่ง `geom_jitter()` โดยมีความโปร่งใสของจุดข้อมูลให้เห็นในกราฟ
+
+### การสร้าง Bar Graph
+
+การสร้าง Bar Graph เหมาะสมกับตัวแปรต้นที่มีลักษณะเป็นกลุ่ม (discrete variable) ดังนั้นโครงสร้างของชุดคำสั่งจะคล้ายคลึงกับการสร้าง boxplot
+
+เราสามารถสร้าง bar graph ได้ 2 วิธีคือ
+
+-   `geom_bar()` จะมีคำสั่งพื้นฐานโดยมีความสูงของกราฟจากสัดส่วนของ n ในข้อมูล
+
+-   `geom_col()` จะมีคำสั่งพื้นฐานโดยมีความสูงของกราฟเป็นค่าของข้อมูลนั้น ๆ คำสั่งนี้จะเหมาะสมกับข้อมูลที่ผ่านการหาค่าสถิติเชิงพรรณามาแล้ว (เช่นค่า *n*, *mean*, *sd*, *se*) และนำไปใช้งานได้สะดวกกว่าเมื่อต้องการสร้าง `error_bar`
+
+ดังนั้น หากต้องการสร้าง bar graph อย่างง่าย เราสามารถใช้คำสั่ง `geom_bar()` ได้ โดยเพิ่มคำสั่ง `stat = "summary"` เมื่อต้องการค่าเฉลี่ย (mean) หรือ `stat = "identity"` เมื่อต้องการค่าผลรวม (sum)
+
+นอกจากนี้แล้ว การสร้าง bar graph ยังสามารถเลือกการวางตัวของกราฟได้ โดยใช้คำสั่ง `position =`โดยค่าพื้นฐานของ `geom_bar()` คือ `position = "stack"` โดยจะเป็นการต่อกันของข้อมูลในแต่ละกลุ่ม ถ้าต้องการให้กราฟอยู่แยกกัน เราจะใช้คำสั่ง `position = "dodge"` หรือ `position = position_dodge(ค่าความห่าง)`
+
+```{r echo=TRUE, warning=FALSE, paged.print=FALSE}
+# x axis is am
+#  stack
+stack <- ggplot(data = mtcars, aes(x = am, y = mpg, fill = vs)) +
+         geom_bar(stat = "summary") +
+         ggtitle("stack") +
+         theme_classic()
+#  dodge
+dodge <- ggplot(data = mtcars, aes(x = am, y = mpg, fill = vs)) +
+         geom_bar(stat = "summary", position = position_dodge(0.9)) +
+         ggtitle("dodge") +
+         theme_classic()
+#x axis is vs
+#  stack
+stack2 <- ggplot(data = mtcars, aes(x = vs, y = mpg, fill = am)) +
+         geom_bar(stat = "summary") +
+         ggtitle("stack") +
+         theme_classic()
+#  dodge
+dodge2 <- ggplot(data = mtcars, aes(x = vs, y = mpg, fill = am)) +
+         geom_bar(stat = "summary", position = position_dodge(0.9)) +
+         ggtitle("dodge") +
+         theme_classic()
+
+describeBy(mpg ~ am * vs, data = mtcars)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+gridExtra::grid.arrange(stack, dodge,stack2,dodge2, nrow = 2, ncol = 2)
+
+```
+
+### การสร้างกราฟที่มี Error Bar
+
+ในการสร้างกราฟแบบ bar graph และ line graph เราสามารถที่จะแสดงผลความคลาดเคลื่อนข้อมูลโดยเพิ่มคำสั่ง `geom_errorbar()` โดยเราสามารถหาค่า *sd*, *se*, หรือ *ci* จากข้อมูลที่เรามีก่อนการสร้าง Error Bar โดยใช้คำสั่ง `summarySE()` จาก package `Rmisc`โดยใช้คำสั่ง
+
+`summarySE(ชื่อไฟล์, measurevar = "ชื่อตัวแปรที่ต้องการหาค่ามาตรฐาน", groupvars = c("ชื่อกลุ่ม 1", "ชื่อกลุ่ม 2"))`
+
+```{r message=FALSE, paged.print=FALSE}
+library(Rmisc)
+
+sum <- summarySE(mtcars, measurevar="mpg", groupvars=c("am","vs"))
+sum
+
+```
+
+เมื่อได้ค่าความคลาดเคลื่อนออกมาแล้ว เราจะสร้างกราฟจาก object ที่มาจาก `summarySE()` นี้
+
+โดยในการสร้าง line graph เราจะใช้คำสั่ง `geom_point()` และ `geom_line()` โดย `geom_point()` จะเป็นการกำหนดให้กราฟมีจุดที่เป็นค่า mean และ `geom_line()`จะเป็นการใส่เส้นกราฟ ซึ่งเราสามารถเซ็ตให้กราฟมีการแยกกลุ่มตามที่เรากำหนดโดยใส่ `aes(group = ตัวแปรจัดกลุ่ม)`
+
+จากนั้น เพิ่มคำสั่ง `geom_errorbar()` ในการสร้าง error bar โดยใช้คำสั่ง `aes(ymin = ชื่อตัวแปรค่า mean - ci, ymax = ชื่อตัวแปรค่า mean + ci)` (*Note*: เราสามารถใช้ค่า *sd* หรือ *se* ในการสร้าง error bar ได้โดยการเปลี่ยน `ci` เป็น `sd` หรือ `se`)
+
+หากกราฟที่ปรากฎออกมามีค่าแกน x และ y ที่ไม่สมดุล เราสามารถใช้คำสั่ง `xlim()` หรือ `ylim()` เพื่อปรับแก้สเกลให้เหมาะสมได้
+
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+#only plot
+line.plot <- ggplot(sum, aes(x = am, y = mpg, color = vs)) +
+             geom_point(position = position_dodge(.2)) +
+             geom_line(aes(group = vs), position = position_dodge(.2)) +
+             ylim(5, 35) +
+             ggtitle("Line Plot without Error Bar") +
+             theme_classic() +
+             scale_color_brewer(palette="Accent")
+
+#with error
+
+line.error <- ggplot(sum, aes(x = am, y = mpg, color = vs)) +
+             geom_point(position = position_dodge(.2)) +
+             geom_line(aes(group = vs), position = position_dodge(.2)) +
+             geom_errorbar(aes(ymin=mpg-ci, ymax=mpg+ci), width=.2, 
+                           position=position_dodge(.2)) +
+             ylim(5, 35) +
+             ggtitle("Line Plot with Error Bar") +
+             theme_classic() +
+             scale_color_brewer(palette="Accent")
+
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+gridExtra::grid.arrange(line.plot, line.error, ncol = 2)
+```
+
+นอกจากนี้ การสร้าง error bar ด้วยคำสั่ง `geom_errorbar()` ยังสามารถนำไปประยุกต์กับ bar graph ได้เช่นกัน แต่ในกรณีรการสร้าง bar graph จากข้อมูลที่หาค่าสถิติจากคำสั่ง `summarySE()` มาแล้วนั้น สังเกตว่าจะมีค่า mean เฉลี่ยแต่ละกลุ่ม (และค่าความคลาดเคลื่อนอื่น ๆ) เท่านั้น ดังนั้นในกรณีนี้เราจะใช้คำสั่ง `geom_col()` ในการสร้าง bar graph
+
+```{r}
+
+bar.error <- ggplot(sum, aes(x = am, y = mpg, color = vs)) + 
+             geom_col(aes(fill = vs), alpha = .5, position = position_dodge(.9)) +
+             geom_errorbar(aes(ymin=mpg-ci, ymax=mpg+ci), width = .3, 
+                           position = position_dodge(.9)) + 
+             theme_classic() +
+             scale_color_manual(values=c("#999999", "#E69F00", "#56B4E9")) +
+             scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9"))
+
+bar.error
+
+```
+
+### การสร้างกราฟรูปแบบอื่น ๆ
+
+นอกจาก boxplot, Bar Graph และ Line Graph แล้ว package `Ggplot2` ยังช่วยเราในการสร้างกราฟอื่น ๆ ได้ เช่น กราฟที่มีตัวแปรเป็นตัวแปรต่อเนื่อง (continuous variable) เราสามารถใช้คำสั่ง `geom_point()` ในการสร้างจุดข้อมูล และ `geom_smooth()` ในการหาเส้นตรงที่เหมาะสมระหว่างข้อมูลทั้งสองตัวแปร โดยเพิ่มคำสั่ง `geom_smooth(method = lm)`
+
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+con.point <- ggplot(mtcars, aes(x = hp, y = mpg, color = hp)) + 
+             geom_point(aes(color = hp)) +
+             geom_smooth(method = lm, color = "darkblue") +
+             theme_classic()
+
+con.point
+
+
+```
+
+เรายังสามารถสร้างข้อมูลเชิงเส้นโดยการใช้คำสั่ง `geom_line()` และ `geom_jitter()` ในการสร้างกราฟเส้น
+
+```{r warning=FALSE, paged.print=FALSE}
+con.line <- ggplot(mtcars, aes(x = hp, y = mpg, group = vs)) + 
+             geom_line(color = "blue3", position = position_dodge(.9)) +
+             geom_jitter(alpha = 0.1, size = 0.5) +
+             theme_classic()
+
+con.line
+
+```
+
+### การปรับแต่งสีในกราฟ
+
+เราสามารถเลือกปรับแต่งกราฟได้โดยการใช้คำสั่ง `theme_` และการใส่สีของกราฟ \
+ทั้ง `R` และ `Ggplot2` มีระบบสีที่ช่วยให้เราเลือกสี 2 วิธี คือ 1. เราสามารถใส่ชื่อสีที่เราต้องการได้โดยเรียกดูชื่อสีในคำสั่ง `colors()` ซึ่งเป็นคำสั่งจาก Base R หรือ 2. คำสั่ง `display.brewer.all()`จาก package `RColorBrewer`
+
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+colors()
+RColorBrewer::display.brewer.all()
+
+```
+*this tutorial was in associated with Psychology Faculty, Chulalongkorn University in Experimental Design And Analysis course.
