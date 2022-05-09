@@ -1,7 +1,5 @@
 theme: jekyll-theme-minimal
-title: Cat Rules the World!
-
-markdown: kramdown
+title: Cat Rules the World
 logo: /docs/IMG_7395.JPG
 
 affiliation: Cat Planet
@@ -9,5 +7,5 @@ email: amaiesc@gmail.com
 github_link: https://github.com/amaiesc/study_r
 linkedin: https://www.linkedin.com/amaiesc
 
-description: I love cats!!!
+description: gimme food!
 
