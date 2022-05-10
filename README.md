@@ -11,7 +11,7 @@ _________________________________________________________
 -   **R เริ่มต้นสำหรับแมว**
 
     -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/getting_to_know_R.html "Basic (you should know) in R")
-    -   [visualization โดย ใช้ ggplot2](https://amaiesc.github.io/study_r/ggplot_knit.html)
+    -   [visualization โดย ใช้ ggplot2](https://amaiesc.github.io/study_r/ggplot_knitmd.html)
     -   TBC
 
 - **R for Statistical Analysis**
