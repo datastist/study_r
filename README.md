@@ -15,21 +15,15 @@ _________________________________________________________
     -   TBC
 
 - **R for Statistical Analysis**
-    - Linear Regression
-    - Multiple Regression
-    - Moderation Analysis
-    - Mediation Analysis
-    - Path Analysis
-    - Structural Equation Modelling
-    - Multi-level Modelling
-    - 
+    - tbc
+    - tbc
 
 - **Missing Data Analysis**
     - [เริ่มต้นหาข้อมูลศูนย์หาย](http://amaiesc.github.io/study_r/missing.html)
 
 
 - **Time Series Analysis**
-    - TBC
+    - tbc
 
 
 - **My Personal Projects**
