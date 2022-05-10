@@ -10,10 +10,8 @@ _________________________________________________________
 
 -   **R beginning for Cats**
 
-    -   [Basic (you should know) in
-        R](https://amaiesc.github.io/study_r/getting_to_know_R.html "Basic (you should know) in R")
-    -   [Visualization with ggplot2
-        package](https://amaiesc.github.io/study_r/ggplot_knit.html)
+    -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/getting_to_know_R.html "Basic (you should know) in R")
+    -   [visualization โดย ใช้ ggplot2](https://amaiesc.github.io/study_r/ggplot_knit.html)
     -   TBC
 
 - **R for Statistical Analysis**
@@ -35,7 +33,7 @@ _________________________________________________________
 
 
 - **My Personal Projects**
-    - [My data and Analysis with R (cat’s thesis)](https://amaiesc.github.io/study_r/script_thesis.html)
+    - [การวิเคราะห์ผลตอนแมวทำทีสิส](https://amaiesc.github.io/study_r/script_thesis.html)
 
     
 
