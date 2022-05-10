@@ -2,7 +2,7 @@
 
 # การใช้ R ขั้นพื้นฐาน
 
-สามารถดู version เปล่า ๆ ได้ที่ [Getting_to_know_R.](http://https://github.com/amaiesc/study_r/getting_to_know_R001.html)
+สามารถดู version เปล่า ๆ ได้ที่ [Getting_to_know_R.](http://https://amaiesc.github.io/study_r/getting_to_know_R001.html)
 
 ในการวิเคราะห์สถิติขั้นพื้นฐาน มีขั้นตอนที่สำคัญที่เราจะค่อย ๆ
 ทำไปที่ละขั้น หากเราทำความรู้จัก Code พื้นฐานสำคัญของ R จะทำให้เราเข้าใจภาษา R
