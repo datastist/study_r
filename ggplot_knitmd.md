@@ -1,7 +1,7 @@
 
 # Data Visualization with ggplot2
 
-สามารถเข้าดูแบบเปล่า ๆ ได้ที่ [Visualization](http://github.com/amaiesc/study_r/ggplot_knit.html)
+สามารถเข้าดูแบบเปล่า ๆ ได้ที่ [Visualization](http://amaiesc.github.io//study_r/ggplot_knit.html)
 
 
 การสร้างภาพข้อมูลหรือ Data Visualization
