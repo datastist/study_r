@@ -6,9 +6,9 @@ _________________________________________________________
 
 # Study_r
 
-#### This Github webpage is for Cats, try using your paws to click topics
+#### แมวเรียน R ภาษาไทย ####
 
--   **R beginning for Cats**
+-   **R เริ่มต้นสำหรับแมว**
 
     -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/getting_to_know_R.html "Basic (you should know) in R")
     -   [visualization โดย ใช้ ggplot2](https://amaiesc.github.io/study_r/ggplot_knit.html)
