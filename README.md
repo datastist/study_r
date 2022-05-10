@@ -25,7 +25,7 @@ _________________________________________________________
     - 
 
 - **Missing Data Analysis**
-    - 
+    - [เริ่มต้นหาข้อมูลศูนย์หาย](http://amaiesc.github.io/study_r/missing.html
 
 
 - **Time Series Analysis**
