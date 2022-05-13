@@ -23,7 +23,7 @@ ________________________________________________________________________________
      -   TBC
 
 -  **R for Statistical Analysis**
-     - tbc
+     - [Normal Distribution](http://amaiesc.github.io/study_r/normal_dis.html)
      - tbc
      - [เริ่มต้นหาข้อมูลศูนย์หาย](http://amaiesc.github.io/study_r/missing.html)
 
