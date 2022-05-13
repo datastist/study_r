@@ -45,7 +45,7 @@ please email me with the **subject line: CATS HELP!!!**.
     
 
 I do not have any lecture videos and do not write any contents outside Github.com. 
-So, so if you find my github.io useful, you can click **DONATION** below this content to see information about donation.
+So, if you find this github.io useful, you can click **DONATION icon** below to see information about how to donate.
 
 Thank you!
 
