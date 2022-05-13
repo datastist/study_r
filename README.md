@@ -27,8 +27,6 @@ please email me with the subject line: CATS HELP!!!.
 - **R for Statistical Analysis**
     - tbc
     - tbc
-
-- **Missing Data Analysis**
     - [เริ่มต้นหาข้อมูลศูนย์หาย](http://amaiesc.github.io/study_r/missing.html)
 
 
@@ -41,6 +39,7 @@ please email me with the subject line: CATS HELP!!!.
     - [ทีสิสของแมว](https://www.researchgate.net/publication/360493214_A_Comparison_of_Emotion_Regulation_Strategies'_Effectiveness_under_Cognitive_Fatigue)
     - [Poster ทีสิสของแมว](https://www.researchgate.net/publication/360493445_A_Comparison_of_Emotion_Regulation_Effectiveness'_Strategies_under_Cognitive_Fatigue)
     - [Senior Project ของแมว](https://www.researchgate.net/publication/360494562_Effects_of_exposure_to_visual_media_on_attitudes_toward_gay_men?channel=doi&linkId=627a6fb42f9ccf58eb3d51a1&showFulltext=true)
+    - [**Cheat Sheets: เอกสารสำหรับแมวหัวหมอ**](https://www.rstudio.com/resources/cheatsheets/)
 
     
 
