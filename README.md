@@ -5,7 +5,7 @@
 [![Researchgate](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/research_.png)](https://www.researchgate.net/profile/Sirinapa-Churassamee-2)
 _________________________________________________________
 
-```
+```r
 About me: I am a data scientist working for private companies (both in TH and in SG; see my resume above). 
 I am also an adjunct lecturer at the Department of Psychology, CU, where I received my B.Sc. and M.A. in Psychology. 
 
@@ -43,11 +43,12 @@ please email me with the subject line: CATS HELP!!!.
     - [การวิเคราะห์ผลตอนแมวทำทีสิส](https://amaiesc.github.io/study_r/script_thesis.html)
 
     
-
+```r
 I do not have any lecture videos and do not write any contents outside Github.com. 
 So, so if you find my github.io useful, you can click **DONATION** below this content to see information about donation.
 
 Thank you!
+```
 
 _________________________________________________________
 [![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donation_.png)](http://amaiesc.github.io/study_r/donation.html) 
