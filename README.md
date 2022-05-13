@@ -5,7 +5,19 @@
 [![Researchgate](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/research_.png)](https://www.researchgate.net/profile/Sirinapa-Churassamee-2)
 _________________________________________________________
 
+```
+About me: I am a data scientist working for private companies (both in TH and in SG; see my resume above). 
+I am also an adjunct lecturer at the Department of Psychology, CU, where I received my B.Sc. and M.A. in Psychology. 
+
+I created this website for the sake of my own storytelling and teaching skills. 
+However, anyone can access the topics listed here. 
+Hopefully my cats (aka my students) will learn some basic R skills here. 
+By the way, if you have any questions or urgently need a statistical consultant, 
+please email me with the subject line: CATS HELP!!!.
+```
+
 # Study_r
+
 
 #### แมวเรียน R ภาษาไทย ####
 
