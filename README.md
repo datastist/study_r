@@ -31,7 +31,7 @@ _________________________________________________________
     
 
 I do not have any lecture videos and do not write any contents outside Github.com. 
-So, so if you find my github.io useful, you can click a big **D** below this content to see information about donation.
+So, so if you find my github.io useful, you can click **DONATION** below this content to see information about donation.
 
 
 ```diff
