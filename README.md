@@ -7,11 +7,10 @@ _________________________________________________________
 
 **About me**: I am a data scientist working for private companies (both in TH and in SG; see my resume above).
 
-I am also an adjunct lecturer (occasionally) at the Psychology Faculty, Chulalongkorn University, where I received my B.Sc. and M.A.
+I am also an adjunct lecturer (occasionally) at the Psychology Faculty, Chulalongkorn University, where I received my B.Sc. and M.A in Social Psychology.
 
 I created this website for the sake of my own storytelling and teaching skills. 
-However, anyone can access the topics listed here. 
-Hopefully my cats (aka my students) will learn some basic R skills here. 
+However, anyone can access the topics listed below and hopefully my cats (aka my students) will learn some basic R skills here. 
 
 By the way, if you have any questions or urgently need a statistical consultant, 
 please email me with the **subject line: CATS HELP!!!**.
@@ -47,5 +46,6 @@ I do not have any lecture videos and do not write any contents outside Github.co
 So, so if you find my github.io useful, you can click **DONATION** below this content to see information about donation.
 
 Thank you!
-________________________________________________________
+________________________________________________________________________________________
+
 [![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donation_.png)](http://amaiesc.github.io/study_r/donation.html) 
