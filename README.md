@@ -3,6 +3,8 @@
 [![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/linkedin_.png)](https://linkedin.com/in/sirinapa-amaie-churassamee-671a63109)
 [![Resume](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/resume.png)](https://github.com/amaiesc/study_r/blob/9e9dc4cc984207be967b4ea4e04c43cd071c515d/docs/Sirinapa_cv_1105.pdf)
 [![Researchgate](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/research_.png)](https://www.researchgate.net/profile/Sirinapa-Churassamee-2)
+
+
 _________________________________________________________
 
 **About me**: I am a data scientist working for private companies (both in TH and in SG; see my resume above).
@@ -47,5 +49,6 @@ So, so if you find my github.io useful, you can click **DONATION** below this co
 
 Thank you!
 ________________________________________________________________________________________
+
 
 [![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donation_.png)](http://amaiesc.github.io/study_r/donation.html) 
