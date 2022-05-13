@@ -38,6 +38,9 @@ please email me with the subject line: CATS HELP!!!.
 
 - **My Personal Projects**
     - [การวิเคราะห์ผลตอนแมวทำทีสิส](https://amaiesc.github.io/study_r/script_thesis.html)
+    - [ทีสิสของแมว](https://www.researchgate.net/publication/360493214_A_Comparison_of_Emotion_Regulation_Strategies'_Effectiveness_under_Cognitive_Fatigue)
+    - [Poster ทีสิสของแมว](https://www.researchgate.net/publication/360493445_A_Comparison_of_Emotion_Regulation_Effectiveness'_Strategies_under_Cognitive_Fatigue)
+    - [Senior Project ของแมว](https://www.researchgate.net/publication/360494562_Effects_of_exposure_to_visual_media_on_attitudes_toward_gay_men?channel=doi&linkId=627a6fb42f9ccf58eb3d51a1&showFulltext=true)
 
     
 
