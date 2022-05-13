@@ -48,7 +48,8 @@ I do not have any lecture videos and do not write any contents outside Github.co
 So, so if you find my github.io useful, you can click **DONATION** below this content to see information about donation.
 
 Thank you!
-________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________
 
 
 [![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donation_.png)](http://amaiesc.github.io/study_r/donation.html) 
