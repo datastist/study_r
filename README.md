@@ -36,7 +36,7 @@ So, so if you find my github.io useful, you can click a big **D** below this con
 
 
 ```diff
-@@ Thank you!@@ , Sirinapa Churassamee
+@@ Thank you!@@
 ```
 _________________________________________________________
 [![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donate150x150.png)](http://amaiesc.github.io/study_r/donation.html) 
