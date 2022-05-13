@@ -24,7 +24,7 @@ ________________________________________________________________________________
 
 -  **R for Statistical Analysis**
      - [Normal Distribution](http://amaiesc.github.io/study_r/normal_dis.html)
-     - tbc
+     - [Normal Distribution - 2 + Q-Q plot](http://amaiesc.github.io/study_r/outliers_1.html)
      - [เริ่มต้นหาข้อมูลศูนย์หาย](http://amaiesc.github.io/study_r/missing.html)
 
 
