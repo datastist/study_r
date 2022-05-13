@@ -14,7 +14,7 @@ _________________________________________________________
 However, anyone can access the topics listed below and hopefully my cats (aka my students) will learn some basic R skills here. 
 
 > :octocat: By the way, if you have any questions or urgently need a statistical consultant, 
-please email me with the subject: CAT HELP!!.
+please email me with the subject **CAT HELP!!**.
 
 
 
