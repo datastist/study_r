@@ -21,18 +21,18 @@ please email me with the subject: CAT HELP!!.
 
 ## แมวเรียน R ภาษาไทย ##
 
--   **R เริ่มต้นสำหรับแมว**
+-  **R เริ่มต้นสำหรับแมว**
      -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/getting_to_know_R.html "Basic (you should know) in R")
      -   [visualization โดย ใช้ ggplot2](https://amaiesc.github.io/study_r/ggplot_knitmd.html)
      -   TBC
 
-- **R for Statistical Analysis**
+-  **R for Statistical Analysis**
      - tbc
      - tbc
      - [เริ่มต้นหาข้อมูลศูนย์หาย](http://amaiesc.github.io/study_r/missing.html)
 
 
-- **Time Series Analysis**
+-  **Time Series Analysis**
      - tbc
 
 
