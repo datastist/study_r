@@ -46,10 +46,10 @@ please email me with the subject: CAT HELP!!.
 
     
 
-I do not have any lecture videos and do not write any contents outside Github.com. 
+> I do not have any lecture videos and do not write any contents outside Github.com. 
 So, if you find this github.io useful, you can click **DONATION icon** below to see information about how to donate.
 
-Thank you!
+> Thank you!
 
 __________________________________________________________________________________________________________________
 
