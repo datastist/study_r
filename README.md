@@ -1,7 +1,7 @@
-[![Github](https://raw.githubusercontent.com/amaiesc/study_r/master/docs_pic/git_.png)](http://amaiesc.github.io/study_r)
-[![E-mail](https://raw.githubusercontent.com/amaiesc/study_r/master/docs_pic/email_.png)](mailto::amaiesc@gmail.com)
-[![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs_pic/linkedin_.png)](https://linkedin.com/in/sirinapa-amaie-churassamee-671a63109)
-![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs_pic/resume.png)
+[![Github](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/git_.png)](http://amaiesc.github.io/study_r)
+[![E-mail](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/email_.png)](mailto::amaiesc@gmail.com)
+[![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/linkedin_.png)](https://linkedin.com/in/sirinapa-amaie-churassamee-671a63109)
+![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/resume.png)
 _________________________________________________________
 
 # Study_r
@@ -37,4 +37,4 @@ So, so if you find my github.io useful, you can click **DONATION** below this co
 Thank you!
 
 _________________________________________________________
-[![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs_pic/donation_.png)](http://amaiesc.github.io/study_r/donation.html) 
+[![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donation_.png)](http://amaiesc.github.io/study_r/donation.html) 
