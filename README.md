@@ -1,7 +1,8 @@
 [![Github](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/git_.png)](http://amaiesc.github.io/study_r)
 [![E-mail](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/email_.png)](mailto::amaiesc@gmail.com)
 [![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/linkedin_.png)](https://linkedin.com/in/sirinapa-amaie-churassamee-671a63109)
-![Linkedin](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/resume.png)
+![Resume](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/resume.png)
+[![Researchgate](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/research_.png)](https://www.researchgate.net/profile/Sirinapa-Churassamee-2)
 _________________________________________________________
 
 # Study_r
