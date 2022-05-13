@@ -51,3 +51,4 @@ ________________________________________________________________________________
 
 
 [![Donation](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/donation_.png)](http://amaiesc.github.io/study_r/donation.html) 
+![](https://komarev.com/ghpvc/?username=amaiesc)
