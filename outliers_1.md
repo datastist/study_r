@@ -9,12 +9,6 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
     #install.packages("random")
     library("random")
     random <- as.data.frame(randomNumbers(n = 2100, min = 0, max = 40, col = 3))
-
-    ## Warning in doTryCatch(return(expr), name, parentenv, handler): unable to load shared object '/Library/Frameworks/R.framework/Resources/modules//R_X11.so':
-    ##   dlopen(/Library/Frameworks/R.framework/Resources/modules//R_X11.so, 0x0006): Library not loaded: /opt/X11/lib/libSM.6.dylib
-    ##   Referenced from: /Library/Frameworks/R.framework/Versions/4.1/Resources/modules/R_X11.so
-    ##   Reason: tried: '/opt/X11/lib/libSM.6.dylib' (no such file), '/Library/Frameworks/R.framework/Resources/lib/libSM.6.dylib' (no such file), '/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/server/libSM.6.dylib' (no such file)
-
     head(random) 
 
     ##   V1 V2 V3
@@ -40,7 +34,7 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
 
     den_V1 <- plot(density(random$V1))
 
-![](outliers_1_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
     den_V1
 
@@ -48,7 +42,7 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
 
     den_V2 <- plot(density(random$V2))
 
-![](outliers_1_files/figure-markdown_strict/unnamed-chunk-2-2.png)
+![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-2-2.png)
 
     den_V2
 
@@ -56,7 +50,7 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
 
     den_V3 <- plot(density(random$V3))
 
-![](outliers_1_files/figure-markdown_strict/unnamed-chunk-2-3.png)
+![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-2-3.png)
 
     den_V3
 
@@ -68,19 +62,19 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
     library(car)
     qqPlot(random$V1)
 
-![](outliers_1_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
     ## [1] 44 68
 
     qqPlot(random$V2)
 
-![](outliers_1_files/figure-markdown_strict/unnamed-chunk-3-2.png)
+![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-3-2.png)
 
     ## [1] 34 93
 
     qqPlot(random$V3)
 
-![](outliers_1_files/figure-markdown_strict/unnamed-chunk-3-3.png)
+![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-3-3.png)
 
     ## [1] 12 25
 
@@ -93,7 +87,7 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
 
     qqPlot(random$V1)
 
-![](outliers_1_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
     ## [1]  1 10
 
