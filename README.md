@@ -17,16 +17,14 @@ ________________________________________________________________________________
 
 ## แมวเรียน R ภาษาไทย ##
 
+-  [มารู้จักกันก่อนก็ได้: FAQ](https://amaiesc.github.io/study_r/faq_.html)
+
 -  **R เริ่มต้นสำหรับแมว**
-     -  [มารู้จักกันก่อนก็ได้: FAQ](https://amaiesc.github.io/study_r/faq_.html)
+     -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/basic_.html)
+     -   [การ install package in R](https://amaiesc.github.io/study_r/install_pac_.html)
+     -   [ชนิดของข้อมูลใน R](https://amaiesc.github.io/study_r/type_of_.html)
+     -   [การ index และ subset ข้อมูล](https://amaiesc.github.io/study_r/index_subset_.html)
 
-
-         -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/basic_.html)
-         -   [การ install package in R](https://amaiesc.github.io/study_r/install_pac_.html)
-         -   [ชนิดของข้อมูลใน R](https://amaiesc.github.io/study_r/type_of_.html)
-         -   [การ index และ subset ข้อมูล](https://amaiesc.github.io/study_r/index_subset_.html)
-     - 
-     -   TBC
 
 -  **R for Statistical Analysis**
      - [Normal Distribution](http://amaiesc.github.io/study_r/normal_dis.html)
