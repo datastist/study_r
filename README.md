@@ -8,8 +8,6 @@ ________________________________________________________________________________
 
 **About me**
 
-![Title](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/icon_b_small.png)
-
 >I am a data scientist working for private companies (both in TH and in SG; see my resume above). I am also an adjunct lecturer (occasionally) at the Psychology Faculty, Chulalongkorn University, where I received my B.Sc. and M.A. in Social Psychology.")
 >
 > I am a data scientist working for private companies (both in TH and in SG; see my resume above). I am also an adjunct lecturer (occasionally) at the Psychology Faculty, Chulalongkorn University, where I received my B.Sc. and M.A. in Social Psychology.
