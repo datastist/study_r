@@ -32,7 +32,7 @@ ________________________________________________________________________________
      - [Normal Distribution](http://amaiesc.github.io/study_r/normal_dis.html)
      - [Normal Distribution ในโลกความเป็นจริง](http://amaiesc.github.io/study_r/outliers_1.html)
      - [Hypothesis Testing & Sampling Distribution](http://amaiesc.github.io/study_r/sample_dis_.html)
-     - [Type I & Type II error]()
+     - [Type I & Type II error](http://amaiesc.github.io/study_r/error.html)
      - [เริ่มต้นหาข้อมูลศูนย์หาย](http://amaiesc.github.io/study_r/missing.html)
 
 
