@@ -9,17 +9,16 @@ ________________________________________________________________________________
 **About me**
 
 ![Some Title](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/icon_b_small.png)
-<p style="font-size:14px; color: gray"> I am a data scientist working for private companies (both in TH and in SG; see my resume above). I am also an adjunct lecturer (occasionally) at the Psychology Faculty, Chulalongkorn University, where I received my B.Sc. and M.A. in Social Psychology. </p>
-
-<p style="font-size:14px; color: gray"> I created this website for the sake of my own storytelling and teaching skills. However, anyone can access the topics listed below and hopefully my cats (aka my students) will learn some basic R skills here. </p>
-
-<p style="font-size:14px; color: gray"> By the way, if you have any questions or urgently need a statistical consultant, please email me with the subject CATS HELP!!. </p>
+> I am a data scientist working for private companies (both in TH and in SG; see my resume above). I am also an adjunct lecturer (occasionally) at the Psychology Faculty, Chulalongkorn University, where I received my B.Sc. and M.A. in Social Psychology.
+> 
+> I created this website for the sake of my own storytelling and teaching skills. However, anyone can access the topics listed below and hopefully my cats (aka my students) will learn some basic R skills here.
+> 
+> By the way, if you have any questions or urgently need a statistical consultant, please email me with the subject CATS HELP!!.
 
 ___________________________________________________________________________________________________________________________________
 
 ## แมวเรียน R ภาษาไทย ##
 -  <a href="https://amaiesc.github.io/study_r/faq_.html" style="color: violet; ">มารู้จักกันก่อน</a>
--  [มารู้จักกันก่อนก็ได้: FAQ]()
 
 -  **R เริ่มต้นสำหรับแมว**
      -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/basic_.html)
@@ -52,7 +51,7 @@ ________________________________________________________________________________
 
 > I do not have any lecture videos and do not write any contents outside Github.com. 
 So, if you find this github.io useful, you can click **DONATION icon** below to see information about how to donate.
-
+>
 > Thank you!
 
 __________________________________________________________________________________________________________________
