@@ -21,7 +21,7 @@ ________________________________________________________________________________
      -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/getting_to_know_R.html)
          -   [การ install package in R](https://amaiesc.github.io/study_r/install_pac_.html)
          -   [ชนิดของข้อมูลใน R](https://amaiesc.github.io/study_r/ggplot_knitmd.html)
-         -   [การ index และ subset ข้อมูล]()
+         -   [การ index และ subset ข้อมูล](https://amaiesc.github.io/study_r/index_subset_.html)
      - 
      -   TBC
 
