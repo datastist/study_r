@@ -20,7 +20,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th>การตัดสินของผู้พิพากษา</th>
+<th>ผล ATK และผลโควิด</th>
 <th>การทดสอบทางสถิติ</th>
 <th>กรณีโดนัท</th>
 </tr>
@@ -84,7 +84,7 @@
 
 โดยปกติแล้วนักวิจัย (โดยเฉพาะสายสังคมวิทยาศาสตร์) จะยอมรับ power อยู่ที่ &gt; 0.8 และ α อยู่ที่ .05 โปรแกรมคำนวณ Power เช่น G\*power สามารถคำนวณกลุ่มตัวอย่างโดยใช้ priori effect size จากงานวิจัยที่ศึกษาตัวแปรก่อนหน้าได้
 
-![power](https://github.com/amaiesc/study_r/blob/master/docs/error_files/figure-markdown_strict/unnamed-chunk-1-1.png?raw=true)
+![power](https://github.com/amaiesc/study_r/blob/master/docs/dis_donut.png?raw=true)
 
 > ตัวอย่างให้เห็นภาพความสัมพันธ์ของสิ่งต่าง ๆ ที่แมวน่าจะยังงงอยู่
 
