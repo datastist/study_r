@@ -20,24 +20,10 @@ Comprehensive R Archive Network `(CRAN; http://cran.r-project.org)`
 
     citation("psych")
 
-    ## 
-    ## To cite the psych package in publications use:
-    ## 
+    
     ##   Revelle, W. (2021) psych: Procedures for Personality and
     ##   Psychological Research, Northwestern University, Evanston, Illinois,
     ##   USA, https://CRAN.R-project.org/package=psych Version = 2.1.6,.
-    ## 
-    ## A BibTeX entry for LaTeX users is
-    ## 
-    ##   @Manual{,
-    ##     title = {psych: Procedures for Psychological, Psychometric, and Personality Research},
-    ##     author = {William Revelle},
-    ##     organization = { Northwestern University},
-    ##     address = { Evanston, Illinois},
-    ##     year = {2021},
-    ##     note = {R package version 2.1.6},
-    ##     url = {https://CRAN.R-project.org/package=psych},
-    ##   }
 
 ### วิธีการ install package
 
@@ -46,7 +32,7 @@ Comprehensive R Archive Network `(CRAN; http://cran.r-project.org)`
 ถ้าเรามีความสงสัยว่า package นี้ใช้งานและมี function อย่างไรบ้าง
 เราสามารถเขียน `library(help=____)`  
 
-Tip : หากว่าเราลง package ไว้แล้ว แล้วเผลอจะใช้คำสั่งจาก package
+**Tip :** หากว่าเราลง package ไว้แล้ว แล้วเผลอจะใช้คำสั่งจาก package
 นั้นครั้งเดียว เราสามารถที่จะ skip การเรียกใช้ แล้วใช้คำสั่ง
 `package::______` แทน
 
