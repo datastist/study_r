@@ -15,9 +15,8 @@
 
 โดยปกติแล้วเราสามารถดู `citation` ของ `package` นั้น ๆ ได้ที่
 
+    install.packages("psych") #มีเครื่องหมาย "___" ด้วยนะ
     citation("psych")
-    
-    
     
     ##   Revelle, W. (2021) psych: Procedures for Personality and
     ##   Psychological Research, Northwestern University, Evanston, Illinois,
