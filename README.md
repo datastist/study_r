@@ -18,7 +18,7 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________
 
 ## แมวเรียน R ภาษาไทย ##
--  <a href="https://amaiesc.github.io/study_r/faq_.html" style="color: #454B1B; text-decoration: underline;text-decoration-style: dotted;">มารู้จักกันก่อน</a>
+-  <a href="https://amaiesc.github.io/study_r/faq_.html" style="color: purple; text-decoration: underline;text-decoration-style: dotted;">มารู้จักกันก่อน</a>
 -  [มารู้จักกันก่อนก็ได้: FAQ]()
 
 -  **R เริ่มต้นสำหรับแมว**
