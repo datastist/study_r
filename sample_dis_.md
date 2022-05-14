@@ -34,12 +34,12 @@
     male_donut <- rnorm(40, mean = 6, sd = 1)
     hist(male_donut)
 
-![](sample_dis__files/figure-markdown_strict/unnamed-chunk-1-1.png)
+![](docs/sample_dis__files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
     female_donut <- rnorm(70, mean = 8, sd = 1)
     hist(female_donut)
 
-![](sample_dis__files/figure-markdown_strict/unnamed-chunk-1-2.png)
+![](docs/sample_dis__files/figure-markdown_strict/unnamed-chunk-1-2.png)
 
     Gender <- c(rep("male", 40), c(rep("female", 70))) #แปลงไฟล์ ใส่เพศลงไป
     male_donut <- as.data.frame(male_donut)
@@ -54,7 +54,7 @@
     library(ggplot2)
     ggplot(data_donut) + geom_density(aes(x=donut, fill=Gender), alpha=.5)
 
-![](sample_dis__files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](docs/sample_dis__files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
 เมื่อนำกราฟมาเปรียบเทียบกันระหว่างชายและหญิงจะพบว่ามีพื้นที่ที่ซ้อนทับกันอยู่
 
