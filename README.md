@@ -28,16 +28,17 @@ ________________________________________________________________________________
      -   [การ index และ subset ข้อมูล](https://amaiesc.github.io/study_r/index_subset_.html)
 
 
--  **R for Statistical Analysis**
+-  **Basic Statistical Concepts**
      - [Normal Distribution](http://amaiesc.github.io/study_r/normal_dis.html)
      - [Normal Distribution ในโลกความเป็นจริง](http://amaiesc.github.io/study_r/outliers_1.html)
      - [Hypothesis Testing & Sampling Distribution](http://amaiesc.github.io/study_r/sample_dis_.html)
      - [Type I & Type II error](http://amaiesc.github.io/study_r/error.html)
-     - [เริ่มต้นหาข้อมูลศูนย์หาย](http://amaiesc.github.io/study_r/missing.html)
+     - 
 
 
--  **Time Series Analysis**
-     - tbc
+-  **R for Data Analysis**
+     - [Data Cleaning]()
+     - [Missing Data](http://amaiesc.github.io/study_r/missing.html)
 
 
 - **My Personal Projects**
