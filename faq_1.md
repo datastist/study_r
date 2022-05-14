@@ -65,7 +65,7 @@ ________________________
 แมวคือมนุษย์ที่ชอบจิตวิทยา สอนสถิติและเขียน R, Python
 เป้นนักวิจัยในหัวใจ และเป็นนักวิทยาศาสตร์ข้อมูลค่า~
 
-[cat](https://github.com/amaiesc/study_r/blob/master/docs/b.png?raw=true)
+![cat](https://github.com/amaiesc/study_r/blob/master/docs/b.png?raw=true)
 
 
 
