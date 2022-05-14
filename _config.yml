@@ -1,4 +1,5 @@
-title: NULL
+theme: jekyll-theme-minimal
+title : NULL
 logo: /docs/icon_b.png
 description: Does cat actually sleep?
 
