@@ -20,7 +20,9 @@ ________________________________________________________________________________
 -  **R เริ่มต้นสำหรับแมว**
      -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/getting_to_know_R.html)
          -   [การ install package in R](https://amaiesc.github.io/study_r/install_pac_.html)
-     -   [visualization โดย ใช้ ggplot2](https://amaiesc.github.io/study_r/ggplot_knitmd.html)
+         -   [ชนิดของข้อมูลใน R](https://amaiesc.github.io/study_r/ggplot_knitmd.html)
+         -   [การ index และ subset ข้อมูล]()
+     - 
      -   TBC
 
 -  **R for Statistical Analysis**
@@ -37,6 +39,7 @@ ________________________________________________________________________________
     - [Thesis ของแมว](https://www.researchgate.net/publication/360493214_A_Comparison_of_Emotion_Regulation_Strategies'_Effectiveness_under_Cognitive_Fatigue)
     - [Thesis Poster ของแมว](https://www.researchgate.net/publication/360493445_A_Comparison_of_Emotion_Regulation_Effectiveness'_Strategies_under_Cognitive_Fatigue)
     - [Senior Project ของแมว](https://www.researchgate.net/publication/360494562_Effects_of_exposure_to_visual_media_on_attitudes_toward_gay_men?channel=doi&linkId=627a6fb42f9ccf58eb3d51a1&showFulltext=true)
+    - [visualization by ggplot2 package](https://amaiesc.github.io/study_r/ggplot_knitmd.html)
 
 
 - [**Cheat Sheets: เอกสารสำหรับแมวหัวหมอ**](https://www.rstudio.com/resources/cheatsheets/)
