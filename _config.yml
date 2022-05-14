@@ -1,6 +1,4 @@
 theme: jekyll-theme-minimal
 title : R
-logo: categories
+logo: docs/Amaiesc.png
 description: Does cat actually sleep?
-layout : post
-categories : categories
