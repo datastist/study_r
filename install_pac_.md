@@ -34,6 +34,6 @@
 
 
 สามารถอ่าน manual การใช้ package ได้ที่
-([http://cran.r-project.org/doc/manuals/R-admin.html)](http://cran.r-project.org/doc/manuals/R-admin.html))
+[http://cran.r-project.org/doc/manuals/R-admin.html](http://cran.r-project.org/doc/manuals/R-admin.html)
 
 _________________________________
