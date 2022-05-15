@@ -15,8 +15,6 @@ ________________________________________________________________________________
 > Sirinapa
 
 ## แมวเรียน R ภาษาไทย ##
--  <a href="https://amaiesc.github.io/study_r/faq_1.html" style="color: violet; ">มารู้จักกันก่อน</a>
-
 -  **R เริ่มต้นสำหรับแมว**
      -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/basic_.html)
      -   [การ install package in R](https://amaiesc.github.io/study_r/install_pac_.html)
