@@ -38,6 +38,7 @@ ________________________________________________________________________________
 
 -  **R for Data Analysis**
      - [Correlation : สหสัมพันธ์](http://amaiesc.github.io/study_r/correlation.html)
+     - [สมการถดถอยอย่างง่าย : simple linear regression](http://amaiesc.github.io/study_r/simple_regression.html)
      - [Data Cleaning]()
      - [Missing Data](http://amaiesc.github.io/study_r/missing.html)
 
