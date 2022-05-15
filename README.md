@@ -6,9 +6,10 @@
 
 ___________________________________________________________________________________________________________________________________
 
+> **About me**
+> 
+> [*Click to read.*](https://amaiesc.github.io/study_r/me.html)
 >
-> [**About me**](https://amaiesc.github.io/study_r/me.html)
-> Click to read.
 > 
 > Truly,
 > Sirinapa
