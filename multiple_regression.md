@@ -17,13 +17,13 @@
 
 โดยการวิเคราะห์ Multiple Regression จะมีข้อตกลงเบื้องต้นไม่ต่างจาก Simple Regression 
 
-            Linear relationship : คือ x และ y มีแนวโน้มที่จะเป็นเส้นตรง
-            Independence : คือการที่ residuals (ค่าหลงเหลือจากการขีดเส้นตรง) มีความแยกออกจากัน
-            Homoscedasticity : คือการที่ residuals มีความสม่ำเสมอในทุก ๆ ช่วงของ x
-            Normality : คือการที่ residuals มีโค้งปกติ Note* อันนี้คือค่า residuals ไม่ใช่ค่าข้อมูลนะ
-           
+> Linear relationship : คือ x และ y มีแนวโน้มที่จะเป็นเส้นตรง
+> Independence : คือการที่ residuals (ค่าหลงเหลือจากการขีดเส้นตรง) มีความแยกออกจากัน
+> Homoscedasticity : คือการที่ residuals มีความสม่ำเสมอในทุก ๆ ช่วงของ x
+> Normality : คือการที่ residuals มีโค้งปกติ Note* อันนี้คือค่า residuals ไม่ใช่ค่าข้อมูลนะ
+> Multi-collinearity : คือการที่ตัวแปร x มีความสัมพันธ์กันสูง จะทำให้ผลที่ได้มีความอคติ
 
-แต่จะมีเพิ่มข้อตกลงเบื้องต้น 1 ข้อ เรียกว่า **Multi-collinearity**: คือการที่ตัวแปร x มีความสัมพันธ์กันสูง จะทำให้ผลที่ได้มีความอคติ
+แต่จะมีเพิ่มข้อตกลงเบื้องต้น 1 ข้อ เรียกว่า **Multi-collinearity**
 
 แต่สำหรับการวิเคราะห์ใน R เราจำเป็นต้องเขียนสมการโมเดลก่อน ด้วยคำสั่ง `lm(y ~ x1 + x2, data)`
 
@@ -80,7 +80,7 @@ plot(model_multiple, 3)
 ``` r
 car::qqPlot(model_multiple)
 ```
-    ![](docs/multiple_regression_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+ ![](docs/multiple_regression_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
         ## [1] 10 12
 
@@ -175,7 +175,5 @@ ggplot(data, aes(x = Grade, y = Avg_weight)) +
   geom_point(stat = "identity") +
   theme_classic()
 ```
-
-    ## `geom_smooth()` using formula 'y ~ x'
 
 ![](multiple_regression_files/figure-markdown_strict/unnamed-chunk-9-1.png)
