@@ -28,12 +28,17 @@ ________________________________________________________________________________
      - [Hypothesis Testing & Sampling Distribution](http://amaiesc.github.io/study_r/sample_dis_.html)
      - [Type I & Type II error](http://amaiesc.github.io/study_r/error.html)
      - [Confident Interval : ช่วงความเชื่อมั่น](http://amaiesc.github.io/study_rp/CI.html)
+     - [Mean Difference : ความแตกต่างของค่าเฉลี่ย]()
 
 
 -  **R for Data Analysis**
      - [Correlation : สหสัมพันธ์](http://amaiesc.github.io/study_r/correlation.html)
      - [Simple Linear Regression : สมการถดถอยอย่างง่าย](http://amaiesc.github.io/study_r/simple_regression.html)
      - [Multiple Regression : สมการถดถอยพหุ](http://amaiesc.github.io/study_r/multiple_regression.html)
+     - [t-test : การเปรียบเทียบโดยใช้ค่ากลางของกลุ่ม]()
+          - [One-sample t.test]()
+          - [Independent t.test]()
+          - [Dependent t.test]()
      - [Data Cleaning]()
      - [Missing Data]()
 
