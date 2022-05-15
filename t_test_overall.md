@@ -111,6 +111,6 @@ describe.by(donut, Gender, data = data_donut)
 
 ก่อนที่เราจะวิเคราะห์สถิติ t-test เราควรมีความเข้าใจพื้นฐานในเรื่องสถิติที่ใช้เปรียบเทียบค่ากลางเสียก่อน
 
-ไปชม [concept]() กัน <3
+ไปอ่าน [concept](http://amaiesc.github.io/study_rp/CLT.html) กัน <3
 
 __________
