@@ -43,7 +43,7 @@ scatter.smooth(Grade, Avg_weight, family = "gaussian")
 ที่นี้เรามาดูความสัมพันธ์ของ `Grade` กับ `ค่าเฉลี่ยจำนวนกาแฟที่ดื่มต่อสัปดาห์`
 
 ``` r
-    scatter.smooth(Grade, Avg_coffee, family = "gaussian")
+scatter.smooth(Grade, Avg_coffee, family = "gaussian")
 ```
 
 ![](docs/correlation_files/figure-markdown_strict/unnamed-chunk-3-1.png)
@@ -62,7 +62,7 @@ scatter.smooth(Grade, Avg_weight, family = "gaussian")
 เรามาลองทดสอบความสัมพันธ์ของตัวแปรกัน ด้วยำสั่ง `cor.test()`
 
 ``` r
-    cor.test(Grade, Avg_weight)
+cor.test(Grade, Avg_weight)
 ```
 
     ##  Pearson's product-moment correlation
