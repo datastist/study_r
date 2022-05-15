@@ -35,7 +35,7 @@ ________________________________________________________________________________
      - [Correlation : สหสัมพันธ์](http://amaiesc.github.io/study_r/correlation.html)
      - [Simple Linear Regression : สมการถดถอยอย่างง่าย](http://amaiesc.github.io/study_r/simple_regression.html)
      - [Multiple Regression : สมการถดถอยพหุ](http://amaiesc.github.io/study_r/multiple_regression.html)
-     - [t-test : การเปรียบเทียบโดยใช้ค่ากลางของกลุ่ม]()
+     - [t-test : การเปรียบเทียบโดยใช้ค่าเฉลี่ยของกลุ่ม](http://amaiesc.github.io/study_r/t_test_overall.html)
           - [One-sample t.test]()
           - [Independent t.test]()
           - [Dependent t.test]()
