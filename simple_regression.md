@@ -3,6 +3,21 @@
 สมการถดถอยเส้นตรง หรือ liner regression คือการทดสอบที่ต้องการหาความสัมพันธ์ (relationship) ระหว่างตัวแปร 2 ตัวหรือมากกว่านั้น เราอาจจะคุ้นเคยกับการมีกราฟที่มี แกน x และ y ในบท
 Correlation แล้ว
 
+![kid_cof](https://github.com/amaiesc/study_r/blob/master/docs/kid_weight_coff.png?raw=true)
+
+ผลจากบท [correlation]() บอกเราว่า
+
+    Pearson's product-moment correlation
+
+    data:  Grade and Avg_weight
+    t = 10.996, df = 10, p-value = 6.614e-07
+    alternative hypothesis: true correlation is not equal to 0
+    95 percent confidence interval:
+    0.8632963 0.9893030
+    sample estimates:
+          cor 
+    0.9610489 
+
 หลังจากที่เราเริ่มรู้ว่า Grade มีความสัมพันธ์สูงกับ Avg\_weight แล้ว (p &lt; 0.001) เราจะเริ่มสร้างโมเดลที่อธิบายความสัมพันธ์นี้กันค่ะ
 
 ### เข้าใจ simple regression
