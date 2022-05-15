@@ -6,6 +6,8 @@
 
 ตัวอย่าง
 
+![kids](https://github.com/amaiesc/study_r/blob/master/docs/kid_weight_coff.png?raw=true)
+
 > การบริโภคกาแฟเฉลี่ย และน้ำหนักเฉลี่ย มีความสัมพันธ์กับนักเรียนแต่ละชั้น (grade 1 - 12)
 
 ในบทนี้ เราจะสร้าง `dataframe` ขึ้นมาด้วย r
