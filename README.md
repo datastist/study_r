@@ -6,17 +6,11 @@
 
 ___________________________________________________________________________________________________________________________________
 
-**About me**
-
->I am a data scientist working for private companies (both in TH and in SG; see my resume above). I am also an adjunct lecturer (occasionally) at the Psychology Faculty, Chulalongkorn University, where I received my B.Sc. and M.A. in Social Psychology.")
 >
-> I am a data scientist working for private companies (both in TH and in SG; see my resume above). I am also an adjunct lecturer (occasionally) at the Psychology Faculty, Chulalongkorn University, where I received my B.Sc. and M.A. in Social Psychology.
+> [**About me**](https://amaiesc.github.io/study_r/me.htm)
 > 
-> I created this website for the sake of my own storytelling and teaching skills. However, anyone can access the topics listed below and hopefully my cats (aka my students) will learn some basic R skills here.
-> 
-> By the way, if you have any questions or urgently need a statistical consultant, please email me with the subject CATS HELP!!.
-
-___________________________________________________________________________________________________________________________________
+> Truly,
+> Sirinapa
 
 ## แมวเรียน R ภาษาไทย ##
 -  <a href="https://amaiesc.github.io/study_r/faq_1.html" style="color: violet; ">มารู้จักกันก่อน</a>
