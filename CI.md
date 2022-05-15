@@ -25,6 +25,7 @@
 *หายใจลึก ๆ*
 
 ยกตัวอย่าง เช่น
+
 ![donut](https://github.com/amaiesc/study_r/blob/master/docs/Male.png?raw=true)
 
 > ผู้ชายกินโดนัทเฉลี่ย 6 ครั้งต่อสัปดาห์ ในกลุ่มตัวอย่างชาย 40 คน
@@ -45,8 +46,8 @@ data_donut <- cbind(Gender, donut)
 
 
 ``` r
-    # t.test
-    t.test(donut ~ Gender, data = data_donut, var.equal = TRUE, conf.level = 0.95)
+# t.test
+t.test(donut ~ Gender, data = data_donut, var.equal = TRUE, conf.level = 0.95)
 ```
 
     ## 
