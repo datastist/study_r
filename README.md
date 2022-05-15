@@ -7,7 +7,8 @@
 ___________________________________________________________________________________________________________________________________
 
 >
-> [**About me**](https://amaiesc.github.io/study_r/me.htm)
+> [**About me**](https://amaiesc.github.io/study_r/me.html)
+> Click to read.
 > 
 > Truly,
 > Sirinapa
