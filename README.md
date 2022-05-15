@@ -33,9 +33,9 @@ ________________________________________________________________________________
 -  **R for Data Analysis**
      - [Correlation : สหสัมพันธ์](http://amaiesc.github.io/study_r/correlation.html)
      - [Simple Linear Regression : สมการถดถอยอย่างง่าย](http://amaiesc.github.io/study_r/simple_regression.html)
-     - [Multiple Regression : สมการถดถอยพหุ]()
+     - [Multiple Regression : สมการถดถอยพหุ](http://amaiesc.github.io/study_r/multiple_regression.html)
      - [Data Cleaning]()
-     - [Missing Data](http://amaiesc.github.io/study_r/missing.html)
+     - [Missing Data]()
 
 
 - **My Personal Projects**
