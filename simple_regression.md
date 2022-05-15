@@ -5,7 +5,7 @@ Correlation แล้ว
 
 ![kid_cof](https://github.com/amaiesc/study_r/blob/master/docs/kid_weight_coff.png?raw=true)
 
-ผลจากบท [correlation]() บอกเราว่า
+ผลจากบท [correlation](https://github.com/amaiesc/study_r/correlation.html) บอกเราว่า
 
     Pearson's product-moment correlation
 
