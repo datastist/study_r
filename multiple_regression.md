@@ -34,7 +34,7 @@ Grade <- 1:12
 Avg_weight <- c(48, 54, 61, 69, 74, 85, 89, 99, 110, 100, 114, 150)
 Avg_coffee <- c(6, 7, 1, 0, 4, 6, 4, 4, 7, 7, 7, 7)
 data <- data.frame(Grade, Avg_weight, Avg_coffee)
-    head(data)
+head(data)
 ```
 
     ##   Grade Avg_weight Avg_coffee
@@ -51,7 +51,7 @@ data <- data.frame(Grade, Avg_weight, Avg_coffee)
 model_multiple <- lm(Avg_weight ~ Grade + Avg_coffee, data = data)
 ```
 - **ทดสอบ Assumptions**
-    - ทดสอบ Linear relationship
+* ทดสอบ Linear relationship
 
 ``` r
 car::crPlots(model_multiple)
@@ -67,7 +67,7 @@ car::ncvTest(model_multiple)
     ## Variance formula: ~ fitted.values 
     ## Chisquare = 10.19174, Df = 1, p = 0.0014107
 
-    - ทดสอบ Homoscedasticity
+* ทดสอบ Homoscedasticity
 
 ``` r
 plot(model_multiple, 3)
@@ -75,7 +75,7 @@ plot(model_multiple, 3)
 
 ![](docs/multiple_regression_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
-    - ทดสอบ Normality
+* ทดสอบ Normality
 
 ``` r
 car::qqPlot(model_multiple)
@@ -83,15 +83,17 @@ car::qqPlot(model_multiple)
  ![](docs/multiple_regression_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
         ## [1] 10 12
+___
 
-    - ทดสอบ Multi-collinearity จะทดสอบด้วย `vif()`
+* ทดสอบ Multi-collinearity จะทดสอบด้วย `vif()`
 
 ``` r
-        car::vif(model_multiple)
+car::vif(model_multiple)
 ```
 
         ##      Grade Avg_coffee 
         ##   1.243642   1.243642
+
 
 ปกติแล้วเราจะอนุญาตให้ vif มีค่าไม่เกิน 2.5 ถ้ามากกว่านั้น โดยเฉพาะมากกว่า 5.00 จะเรียกว่ามีความสัมพันธ์ที่ทับซ้อนกันเกินไป
 
