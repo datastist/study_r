@@ -50,7 +50,8 @@ head(data)
 ``` r
 model_multiple <- lm(Avg_weight ~ Grade + Avg_coffee, data = data)
 ```
-- **ทดสอบ Assumptions**
+### ทดสอบ Assumptions
+
 * ทดสอบ Linear relationship
 
 ``` r
