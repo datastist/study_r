@@ -37,6 +37,7 @@ ________________________________________________________________________________
 
 
 -  **R for Data Analysis**
+     - [Correlation : สหสัมพันธ์](http://amaiesc.github.io/study_r/correlation.html)
      - [Data Cleaning]()
      - [Missing Data](http://amaiesc.github.io/study_r/missing.html)
 
