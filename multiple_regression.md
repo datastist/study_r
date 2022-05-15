@@ -18,9 +18,13 @@
 โดยการวิเคราะห์ Multiple Regression จะมีข้อตกลงเบื้องต้นไม่ต่างจาก Simple Regression 
 
 > Linear relationship : คือ x และ y มีแนวโน้มที่จะเป็นเส้นตรง
+> 
 > Independence : คือการที่ residuals (ค่าหลงเหลือจากการขีดเส้นตรง) มีความแยกออกจากัน
+> 
 > Homoscedasticity : คือการที่ residuals มีความสม่ำเสมอในทุก ๆ ช่วงของ x
+> 
 > Normality : คือการที่ residuals มีโค้งปกติ Note* อันนี้คือค่า residuals ไม่ใช่ค่าข้อมูลนะ
+> 
 > Multi-collinearity : คือการที่ตัวแปร x มีความสัมพันธ์กันสูง จะทำให้ผลที่ได้มีความอคติ
 
 แต่จะมีเพิ่มข้อตกลงเบื้องต้น 1 ข้อ เรียกว่า **Multi-collinearity**
