@@ -83,7 +83,6 @@ car::qqPlot(model_multiple)
  ![](docs/multiple_regression_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
         ## [1] 10 12
-___
 
 * ทดสอบ Multi-collinearity จะทดสอบด้วย `vif()`
 
