@@ -1,18 +1,20 @@
 # การเปรียบเทียบค่าเฉลี่ยกลุ่มเมื่อรู้ค่าเฉลี่ยของกลุ่มประชากร
 
-กลับมาที่ t-test ของเรา หลังจากที่ไปมึนอยู่กับ Central Limit Teorem
+กลับมาที่ t-test ของเรา หลังจากที่ไปมึนอยู่กับ [Central Limit Teorem](https://amaiesc.github.io/study_r/CLT.html)
 
 ในบทนี้ เราจะสร้างชุดข้อมูลง่าย ๆ ในการเปรียบกลุ่มประชากร
 
 สมมติว่า
 
-แมวทั้งโลกมี 6,000,000 ตัว และนอนวันละ 21 ชั่วโมง
-เราไปเก็บข้อมูลชั่วโมงที่แมวนอนแถวซอยบ้านเรามา 30 ตัว
+> แมวทั้งโลกมี 6,000,000 ตัว และนอนวันละ 21 ชั่วโมง
+> เราไปเก็บข้อมูลชั่วโมงที่แมวนอนแถวซอยบ้านเรามา 30 ตัว
 
-    set.seed(1990)
-    cat_alley <- rnorm(n = 30, mean = 16.78, sd = 3.4)
-    cat_alley <- as.data.frame(cat_alley)
-    summary(cat_alley)
+``` r
+set.seed(1990)
+cat_alley <- rnorm(n = 30, mean = 16.78, sd = 3.4)
+cat_alley <- as.data.frame(cat_alley)
+summary(cat_alley)
+```
 
     ##    cat_alley    
     ##  Min.   :10.91  
@@ -22,24 +24,30 @@
     ##  3rd Qu.:17.54  
     ##  Max.   :22.77
 
+
 เราลองมา plot graph เล่น ๆ ดู
 
-    library(ggplot2)
-    ggplot(cat_alley, aes(y = cat_alley)) +
+``` r
+library(ggplot2)
+ggplot(cat_alley, aes(y = cat_alley)) +
       geom_boxplot()
+```
 
-![](one_t_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](docs/one_t_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
-    ggplot(cat_alley, aes(x = cat_alley)) +
+``` r
+ggplot(cat_alley, aes(x = cat_alley)) +
       geom_density()
+```
 
-![](one_t_files/figure-markdown_strict/unnamed-chunk-2-2.png)
+![](docs/one_t_files/figure-markdown_strict/unnamed-chunk-2-2.png)
 
 จะพบว่าข้อมูล cat\_alley ที่เก็บมามีความเป็น Normal Distribution
 
-แมวทั่วโลกมีค่าเฉลี่ยนอนวันละ 21 ชั่ว (μ)
+จากโจทย์
+> แมวทั่วโลกมีค่าเฉลี่ยนอนวันละ 21 ชั่ว (μ)
 
-## การวิเคราะห์ผล
+## การวิเคราะห์ผลสถิติ t แบบ one-sample
 
 สมมติฐานว่างของเราในที่นี้คือ
 
@@ -49,7 +57,9 @@
 
 เมื่อทดสอบด้วยสถิติ t จะพบว่า
 
-    t.test(cat_alley, mu = 21)
+``` r
+t.test(cat_alley, mu = 21)
+```
 
     ## 
     ##  One Sample t-test
