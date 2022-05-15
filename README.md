@@ -33,7 +33,7 @@ ________________________________________________________________________________
      - [Normal Distribution ในโลกความเป็นจริง](http://amaiesc.github.io/study_r/outliers_1.html)
      - [Hypothesis Testing & Sampling Distribution](http://amaiesc.github.io/study_r/sample_dis_.html)
      - [Type I & Type II error](http://amaiesc.github.io/study_r/error.html)
-     - 
+     - [Confident Interval : ช่วงความเชื่อมั่น](http://amaiesc.github.io/study_r/CI.html)
 
 
 -  **R for Data Analysis**
