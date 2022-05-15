@@ -1,4 +1,4 @@
-
+![me](https://github.com/amaiesc/study_r/blob/master/docs/me_meta.png?raw=true)
 ``` r
 About me: 
 
