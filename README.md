@@ -28,7 +28,7 @@ ________________________________________________________________________________
      - [Hypothesis Testing & Sampling Distribution](http://amaiesc.github.io/study_r/sample_dis_.html)
      - [Type I & Type II error](http://amaiesc.github.io/study_r/error.html)
      - [Confident Interval : ช่วงความเชื่อมั่น](http://amaiesc.github.io/study_rp/CI.html)
-     - [Mean Difference : การเปรียบเทียบค่าเฉลี่ย](http://amaiesc.github.io/study_rp/CLT.html)
+     - [Mean Application to Central Limit Teorem](http://amaiesc.github.io/study_rp/CLT.html)
 
 
 -  **R for Data Analysis**
