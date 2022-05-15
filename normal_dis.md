@@ -20,8 +20,10 @@ Sample (กลุ่มตัวอย่าง) จะหมายถึง ก
 > สมมติว่าเรามีข้อมูลกลุ่มประชากรแมว 50,000 ตัว
 > แมวมีค่าเฉลี่ยในการกินอาหารวันละ 4 ครั้ง และมีความคาดเคลื่อนคือ 1
 
-    cat <- rnorm(50000, mean = 4, sd = 1)
-    plot(density(cat))
+``` r
+cat <- rnorm(50000, mean = 4, sd = 1)
+plot(density(cat))
+```
 
 ![](docs/normal_dis_files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
@@ -30,8 +32,10 @@ Sample (กลุ่มตัวอย่าง) จะหมายถึง ก
 > สมมติว่าในประชากรสุนัข 100,000 ตัว สุนัขมีค่าเฉลี่ยในการกินอาหารวันละ
 > 2.5 ครั้ง และมีความคาดเคลื่อนในประชากรคือ 1.5
 
-    dog <- rnorm(100000, mean = 2.5, sd = 1.5)
-    plot(density(dog))
+``` r
+dog <- rnorm(100000, mean = 2.5, sd = 1.5)
+plot(density(dog))
+```
 
 ![](docs/normal_dis_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
@@ -59,17 +63,20 @@ Sample (กลุ่มตัวอย่าง) จะหมายถึง ก
 ในแต่ละข้อมูลเชิงประจักษ์ของเราและ ความคลาดเคลื่อน (standard error; se)
 ของกลุ่มตัวอย่างนั่นเอง
 
-    male_donut <- rnorm(40, mean = 6, sd = 1)
-    plot(density(male_donut))
+```r
+male_donut <- rnorm(40, mean = 6, sd = 1)
+plot(density(male_donut))
+```
 
 ![](docs/normal_dis_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
-    female_donut <- rnorm(70, mean = 8, sd = 1)
-    plot(density(female_donut))
-
+``` r
+female_donut <- rnorm(70, mean = 8, sd = 1)
+plot(density(female_donut))
+```
 ![](docs/normal_dis_files/figure-markdown_strict/unnamed-chunk-3-2.png)
 
-จากกราฟทั้งสองจะพบว่าเป้น normal distributed คล้ายกัน (ให้ sd = 1 จะได้ดูง่าย)
+จากกราฟทั้งสองจะพบว่าเป็น normal distributed คล้ายกัน (ให้ *sd* = 1 จะได้ดูง่าย)
 
 เนื่องจากความสำคัญของการเป็น Normal distribution ของข้อมูล
 การวิเคราะห์ทางสถิติหลายวิธียังมีความจำเป็นให้ข้อสันนิฐานนี้ตรงกับใจนักสถิติอยู่
