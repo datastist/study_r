@@ -2,20 +2,22 @@
 
 ## ความสัมพันธ์ สหสัมพันธ์ หรือ correlation
 
-การทดสอบ correlation คือการทดสอบความสัมพันธ์ระหว่างตัวแปร 2 ตัว
-ซึ่งจะทำให้เรารู้ว่า เมื่อตัวหนึ่งเพิ่มขึ้นอีกตัวเพิ่มขึ้นตามไหม
+การทดสอบ correlation คือการทดสอบความสัมพันธ์ระหว่างตัวแปร 2 ตัว ซึ่งจะทำให้เรารู้ว่า เมื่อตัวหนึ่งเพิ่มขึ้นอีกตัวเพิ่มขึ้นตามไหม
 
-เช่น ตัวอย่าง
+ตัวอย่าง
 
-การบริโภคกาแฟมีความสัมพันธ์กับน้ำหนักหรือไม่
+> การบริโภคกาแฟเฉลี่ย และน้ำหนักเฉลี่ย มีความสัมพันธ์กับนักเรียนแต่ละชั้น (grade 1 - 12)
 
-ในบทนี้ เราจะสร้าง dataframe ขึ้นมาด้วย r
+ในบทนี้ เราจะสร้าง `dataframe` ขึ้นมาด้วย r
 
-    Grade <- 1:12
-    Avg_weight <- c(48, 54, 61, 69, 74, 85, 89, 99, 110, 100, 114, 150)
-    Avg_coffee <- c(6, 7, 1, 0, 4, 6, 4, 4, 7, 7, 7, 7)
-    data <- cbind(Grade, Avg_weight, Avg_coffee)
-    head(data)
+``` r
+Grade <- 1:12
+Avg_weight <- c(48, 54, 61, 69, 74, 85, 89, 99, 110, 100, 114, 150)
+Avg_coffee <- c(6, 7, 1, 0, 4, 6, 4, 4, 7, 7, 7, 7)
+data <- cbind(Grade, Avg_weight, Avg_coffee)
+head(data)
+```
+
 
     ##      Grade Avg_weight Avg_coffee
     ## [1,]     1         48          6
@@ -28,19 +30,21 @@
 หลังจากนั้นเราจะใช้ `scatter plot` ด้วยคำสั่ง `scatter.smooth()`
 ในการดูความสัมพันธ์ด้วยสายตาของ Grade กับ น้ำหนักเฉลี่ย (Avg\_weight)
 
-    scatter.smooth(Grade, Avg_weight, family = "gaussian")
+``` r
+scatter.smooth(Grade, Avg_weight, family = "gaussian")
+```
 
-![](correlation_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](docs/correlation_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
-กราฟแสดงถึงการที่ยิ่ง `Grade` สูงขึ้นเท่าไหร่ `น้ำหนัก`ก็จะสูงขึ้น
-ซึ่งสมเหตุสมผล (โตขึ้น น้ำหนักมากขึ้น)
+กราฟแสดงถึงการที่ยิ่ง `Grade` สูงขึ้นเท่าไหร่ `น้ำหนัก`ก็จะสูงขึ้น ซึ่งสมเหตุสมผล (โตขึ้น น้ำหนักมากขึ้น)
 
-ที่นี้เรามาดูความสัมพันธ์ของ `Grade`
-กับ`ค่าเฉลี่ยจำนวนกาแฟที่ดื่มต่อสัปดาห์`
+ที่นี้เรามาดูความสัมพันธ์ของ `Grade` กับ `ค่าเฉลี่ยจำนวนกาแฟที่ดื่มต่อสัปดาห์`
 
+``` r
     scatter.smooth(Grade, Avg_coffee, family = "gaussian")
+```
 
-![](correlation_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](docs/correlation_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
 จะเห็นได้ว่า `Grade` และ `จำนวนกาแฟเฉลี่ยที่กิน` ไม่มีความสัมพันธ์กัน
 
@@ -55,9 +59,10 @@
 
 เรามาลองทดสอบความสัมพันธ์ของตัวแปรกัน ด้วยำสั่ง `cor.test()`
 
+``` r
     cor.test(Grade, Avg_weight)
+```
 
-    ## 
     ##  Pearson's product-moment correlation
     ## 
     ## data:  Grade and Avg_weight
@@ -69,13 +74,14 @@
     ##       cor 
     ## 0.9610489
 
-จะเห็นได้ว่า จากผลการทดสอบของ Pearson’s correaltion ของ `Grade` และ
-`Avg_weight` มีความสัมพันธ์กันที่ 0.961 อย่างมีนัยสำคัญทางสถิติที่ *p*
-&lt; 0.001
+จะเห็นได้ว่า จากผลการทดสอบของ Pearson’s correaltion ของ `Grade` และ `Avg_weight` มีความสัมพันธ์กันที่ 0.961 อย่างมีนัยสำคัญทางสถิติที่ *p* &lt; 0.001
 
-    cor.test(Grade, Avg_coffee)
+ที่นี้มาดูความสัมพันธ์ของ `Grade` และ `Avg_Coffee` กันบ้าง
 
-    ## 
+``` r
+cor.test(Grade, Avg_coffee)
+```
+
     ##  Pearson's product-moment correlation
     ## 
     ## data:  Grade and Avg_coffee
@@ -87,7 +93,6 @@
     ##       cor 
     ## 0.4426174
 
-จากผลการทดสอบของ Pearson’s correaltion `Grade` และ `Avg_Coffee`
-มีความสัมพันธ์กันที่ 0.442 ซึ่งไม่ถึงนัยสำคัญทางสถิติ
+จากผลการทดสอบของ Pearson’s correaltion `Grade` และ `Avg_Coffee` มีความสัมพันธ์กันที่ 0.442 ซึ่งไม่ถึงนัยสำคัญทางสถิติ
 
 เย้!
