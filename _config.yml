@@ -1,4 +1,17 @@
-theme: jekyll-theme-minimal
-title : R
-logo: /docs/icon_b.png
-description: Does cat actually sleep?
+navbar:
+  title: My Website
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: Readings
+    menu:
+    - text: Module 1
+      href: readings-module1.html
+    - text: Module 2
+      href: readings-module2.html
+    - text: Module 3
+      href: readings-module3.html
+    - text: Module 4
+      href: readings-module4.html
