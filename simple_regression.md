@@ -5,7 +5,8 @@ Correlation แล้ว
 
 ![kid_cof](https://github.com/amaiesc/study_r/blob/master/docs/kid_weight_coff.png?raw=true)
 
-ผลจากบท [correlation](https://github.com/amaiesc/study_r/correlation.html) บอกเราว่า
+ผลจากบท [correlation](https://amaiesc.github.io/study_r/correlation.html) บอกเราว่า
+
 
     Pearson's product-moment correlation
 
@@ -18,9 +19,10 @@ Correlation แล้ว
           cor 
     0.9610489 
 
+
 หลังจากที่เราเริ่มรู้ว่า Grade มีความสัมพันธ์สูงกับ Avg\_weight แล้ว (p &lt; 0.001) เราจะเริ่มสร้างโมเดลที่อธิบายความสัมพันธ์นี้กันค่ะ
 
-### เข้าใจ simple regression
+## เข้าใจ simple regression
 
 โดยปกติแล้วรูปแบบของสมการเส้นตรงจะถูกเขียนไว้ว่า
 
@@ -33,18 +35,15 @@ Correlation แล้ว
 
 ในการวิเคราะห์ simple regression จะมีข้อตกลงเบื้อง (assumption) ข้อตกลงเบื้องต้นนี้ มีไว้เพื่อไม่ให้เกิดอคติทางสถิติในการวิเคราะห์ รวมไปถึง type I, II error ด้วย ดังนั้น เราควรจะทำก่อนสิ่งใด ๆ เสมอบนโมเดลสถิติเราควรตรวจสอบข้อตกลงเบื้องต้นบนข้อมูลของเราเสียก่อนจ้า
  
-#### ข้อตกลงเบื้องต้นของการใช้สมการถดถอยเส้นตรง (simple linear regression)
+### ข้อตกลงเบื้องต้นของการใช้สมการถดถอยเส้นตรง (simple linear regression)
 
-1.  Linear relationship : คือ x และ y มีแนวโน้มที่จะเป็นเส้นตรง
-    เราสามารถทดสอบได้โดยการใช้
-2.  Independence : คือการที่ residuals (ค่าหลงเหลือจากการขีดเส้นตรง)
-    มีความแยกออกจากัน
-3.  Homoscedasticity : คือการที่ residuals มีความสม่ำเสมอในทุก ๆ ช่วงของ
-    x
-4.  Normality : คือการที่ residuals มีโค้งปกติ Note\* อันนี้คือค่า
-    residuals ไม่ใช่ค่าข้อมูลนะ[1]
+1.  Linear relationship : คือ x และ y มีแนวโน้มที่จะเป็นเส้นตรง เราสามารถทดสอบได้โดยการใช้ `cor.test()`
+2.  Independence : คือการที่ residuals (ค่าหลงเหลือจากการขีดเส้นตรง) มีความแยกออกจากัน
+3.  Homoscedasticity : คือการที่ residuals มีความสม่ำเสมอในทุก ๆ ช่วงของ x
+4.  Normality : คือการที่ residuals มีโค้งปกติ Note\* อันนี้คือค่า residuals ไม่ใช่ค่าข้อมูลนะ[1]
 
 เราจะมาทดสอบทีละตัวกันบน data ที่เราสร้างในบท correlation
+
 ``` r
 Grade <- 1:12
 Avg_weight <- c(48, 54, 61, 69, 74, 85, 89, 99, 110, 100, 114, 150)
