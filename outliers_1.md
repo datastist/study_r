@@ -4,10 +4,11 @@
 distributed) บทนี้เราจะมาลอง dataset จริงจากการสร้างชุด data ขึ้นมา โดยการสุ่มเลขและใช้ package ชื่อว่า `random`
 
 ``` r
-    install.packages("random")
-    library("random")
-    random <- as.data.frame(randomNumbers(n = 2100, min = 0, max = 40, col = 3))
-    head(random) 
+install.packages("random")
+library("random")
+random <- as.data.frame(randomNumbers(n = 2100, min = 0, max = 40, col = 3))
+head(random) 
+```
 
     ##   V1 V2 V3
     ## 1  4  1 33
@@ -16,14 +17,12 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
     ## 4 33 12 13
     ## 5 17 24 22
     ## 6 38  0  1
-```
+
 
 
 ``` r
-    summary(random)
-
-
-
+summary(random)
+```
     ##        V1              V2              V3       
     ##  Min.   : 0.00   Min.   : 0.00   Min.   : 0.00  
     ##  1st Qu.:10.00   1st Qu.:10.00   1st Qu.:10.00  
@@ -31,25 +30,24 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
     ##  Mean   :20.44   Mean   :19.92   Mean   :20.07  
     ##  3rd Qu.:31.00   3rd Qu.:30.00   3rd Qu.:30.00  
     ##  Max.   :40.00   Max.   :40.00   Max.   :40.00
-```
 
-เราจะได้ dataset 1 ชุดที่มี 3 คอลลัมภ์ (V1, V2, V3)
-ถ้าเราลองนำข้อมูลในแต่ละคอลลัมภ์มา plot `density` graph
+
+เราจะได้ dataset 1 ชุดที่มี 3 คอลลัมภ์ (V1, V2, V3) ถ้าเราลองนำข้อมูลในแต่ละคอลลัมภ์มา plot `density` graph
 
 ``` r
-    den_V1 <- plot(density(random$V1))
+den_V1 <- plot(density(random$V1))
 ```
 
 ![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
 ``` r
-    den_V2 <- plot(density(random$V2))
+den_V2 <- plot(density(random$V2))
 ```
 
 ![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-2-2.png)
 
 ``` r
-    den_V3 <- plot(density(random$V3))
+den_V3 <- plot(density(random$V3))
 ```
 
 ![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-2-3.png)
@@ -58,8 +56,8 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
 ถามว่าโค้งปกติไหม ตอนนี้อาจจะดูงง ๆ สุด ๆ แต่เราสามารถทดสอบได้ด้วยคำสั่ง `qqPlot()` จาก package `car` \*P ตัวใหญ่
 
 ``` r
-    library(car)
-    qqPlot(random$V1)
+library(car)
+qqPlot(random$V1)
 ```
 
 ![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-3-1.png)
@@ -67,7 +65,7 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
     ## [1] 44 68
 
 ``` r
-    qqPlot(random$V2)
+qqPlot(random$V2)
 ```
 
 ![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-3-2.png)
@@ -75,7 +73,7 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
     ## [1] 34 93
 
 ``` r
-    qqPlot(random$V3)
+qqPlot(random$V3)
 ```
 
 ![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-3-3.png)
@@ -88,8 +86,8 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
 เราจะลองใส่ข้อมูลใน data ที่เรามีอยู่
 
 ``` r
-    random[c(1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100), "V1"] <- 69
-    qqPlot(random$V1)
+random[c(1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100), "V1"] <- 69
+qqPlot(random$V1)
 ```
 
 ![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-4-1.png)
@@ -102,10 +100,10 @@ distributed) บทนี้เราจะมาลอง dataset จริง�
 เราสามารถที่จะสร้างกราฟด้วยคำสั่ง `boxplot()` ได้
 
 ``` r
-    boxplot(random$V1)$out
-r
+boxplot(random$V1)$out
+```
 
-![](outliers_1_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](docs/outliers_1_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
     ##  [1] 69 69 69 69 69 69 69 69 69 69 69
 
