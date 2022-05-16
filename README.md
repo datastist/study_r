@@ -9,6 +9,7 @@ ________________________________________________________________________________
 > **About me**
 > 
 > [*Click to read.*](https://amaiesc.github.io/study_r/me.html)
+> [*click to website.*](http://www.datastist.com)
 >
 > 
 > Truly,
