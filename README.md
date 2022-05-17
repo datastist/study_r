@@ -38,7 +38,7 @@ ________________________________________________________________________________
      - [Multiple Regression : สมการถดถอยพหุ](http://amaiesc.github.io/study_r/multiple_regression.html)
      - [t-test : การเปรียบเทียบโดยใช้ค่าเฉลี่ยของกลุ่ม](http://amaiesc.github.io/study_r/t_test_overall.html)
           - [One-sample t.test](http://amaiesc.github.io/study_r/one_t.html)
-          - [Independent t.test]()
+          - [Independent t.test](http://amaiesc.github.io/study_r/in_t.html)
           - [Dependent t.test]()
      - [Data Cleaning]()
      - [Missing Data]()
