@@ -77,7 +77,7 @@ head(job_sat)
 
 การที่ผลไม่ significant หรือ Pr(&gt;F) ไม่น้อยกว่า 0.05 แปลว่าข้อมูลไม่ละเมิดข้อตกลงนี้ค่ะ
 
--   Normality
+-   การทดสอบ Normality
 
 ``` r
     car::qqPlot(job_sat_score ~ company, job_sat)
