@@ -136,8 +136,8 @@
     library(ggplot2)
     ggplot(job_sat) +
       geom_density(aes(x = job_sat_score, fill = company), alpha = .5) +
-      geom_vline(xintercept = 5.098605, color = "red") +
-      geom_vline(xintercept =  5.090259, color = "blue") +
+      geom_vline(xintercept = 4.809946, color = "red") +
+      geom_vline(xintercept = 5.379535, color = "blue") +
                      theme_classic() +
                      scale_fill_brewer(palette="Accent")
 
