@@ -26,6 +26,9 @@ Analysis of Variances คือ การวิเคราะห์ความ
 
 ทีนี้ Variances ก็คือ Standard Deviation ที่ยังไม่ square root นั่นเอง
 
+![](https://github.com/amaiesc/study_r/blob/master/pics/Variance.png?raw=true)
+
+>
 > แล้วมันมีความสำคัญอย่างไร?
 
 Variances จะช่วยอธิบายตัวแปรที่เราต้องการอธิบาย หรือตัวแปรตาม นี่แหละ
