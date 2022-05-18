@@ -50,10 +50,10 @@
 > scale 1 - 10 Likert
 
 ``` r
-    set.seed(1990)
-    Agroup <- rnorm(100, mean = 7.12, sd = 1.2)
-    Bgroup <- rnorm(100, mean = 6.25, sd = 2.1)
-    summary(Agroup)
+set.seed(1990)
+Agroup <- rnorm(100, mean = 7.12, sd = 1.2)
+Bgroup <- rnorm(100, mean = 6.25, sd = 2.1)
+summary(Agroup)
 ```
 
 
@@ -62,7 +62,7 @@
 
 
 ``` r
-    summary(Bgroup)
+summary(Bgroup)
 ```
 
 
@@ -145,14 +145,13 @@ t.test(Agroup, Bgroup, paired = TRUE)
 
 
 
-ผล Output ของ R บอกเราว่าฝั่ง A กับฝั่ง B
-เค้ามีความพึงพอใจในความสัมพันธ์ (relationship satisfaction)
-แตกต่างกันที่ t(1,99) = 2.5734, p &lt; 0.05
+ผล Output ของ R บอกเราว่าฝั่ง A กับฝั่ง B เค้ามีความพึงพอใจในความสัมพันธ์ (relationship satisfaction) แตกต่างกันที่ t(1,99) = 2.5734, p &lt; 0.05
 มีความแตกต่างของค่าเฉลี่ยอยู่ที่ 0.608
 
 > ตอนนี้ก็ไม่รู้ว่าฝั่ง A ได้ยินข้อมูลนี้แล้วจะรู้สึกยังไงบ้างเนอะ
 > บางทีรักของเราก็ไม่เท่ากันเนอะ......... T^T
 > <img src="docs/paired_t_files/figure-markdown_strict/แมวตั้งรับ-6.png" width="100" />
+
 
 ### สร้างกราฟให้เป็นนิสัยกันดีกว่า
 
