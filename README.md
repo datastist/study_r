@@ -32,6 +32,7 @@ ________________________________________________________________________________
      - [Type I & Type II error](http://amaiesc.github.io/study_r/error.html)
      - [Confident Interval : ช่วงความเชื่อมั่น](http://amaiesc.github.io/study_rp/CI.html)
      - [Mean Application to Central Limit Teorem](http://amaiesc.github.io/study_r/CLT.html)
+     - [Family-wise error rate](https://amaiesc.github.io/study_r/FWER.html)
 
 
 -  **R for Data Analysis**
@@ -42,7 +43,7 @@ ________________________________________________________________________________
           - [One-sample t.test](http://amaiesc.github.io/study_r/one_t.html)
           - [Independent t.test](http://amaiesc.github.io/study_r/in_t.html)
           - [Dependent t.test](http://amaiesc.github.io/study_r/paired_t.html)
-     -[Analysis of Variances : แปรปรวนมาก](http://amaiesc.github.io/study_r/1_anova.html)
+     - [Analysis of Variances : แปรปรวนมาก](http://amaiesc.github.io/study_r/1_anova.html)
      - [Data Cleaning]()
      - [Missing Data]()
 
