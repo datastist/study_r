@@ -20,10 +20,9 @@ Analysis of Variances คือ การวิเคราะห์ความ
 
 ### variance มีความสำคัญอย่างไร
 
-ถ้าย้อนกลับไปในเรื่อง [**CLT**]() เราจะเริ่มคุ้นเคยกับ Standard Deviation
-(ค่าเบี่ยงเบนออกไปจากค่าเฉลี่ย)
+ถ้าย้อนกลับไปในเรื่อง [**CLT**]() เราจะเริ่มคุ้นเคยกับ Standard Deviation (ค่าเบี่ยงเบนออกไปจากค่าเฉลี่ย)
 
-![](docs/แมวตั้งรับ-6.png)
+![](https://github.com/amaiesc/study_r/blob/master/pics/SD.png?raw=true)
 
 ทีนี้ Variances ก็คือ Standard Deviation ที่ยังไม่ square root นั่นเอง
 
