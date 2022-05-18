@@ -9,6 +9,8 @@ ________________________________________________________________________________
 > **About me**
 > 
 > [*Click to read.*](https://amaiesc.github.io/study_r/me.html)
+
+
 > [*click to website.*](http://www.datastist.com)
 >
 > 
@@ -40,6 +42,7 @@ ________________________________________________________________________________
           - [One-sample t.test](http://amaiesc.github.io/study_r/one_t.html)
           - [Independent t.test](http://amaiesc.github.io/study_r/in_t.html)
           - [Dependent t.test](http://amaiesc.github.io/study_r/paired_t.html)
+     -[Analysis of Variances : แปรปรวนมาก](http://amaiesc.github.io/study_r/1_anova.html)
      - [Data Cleaning]()
      - [Missing Data]()
 
