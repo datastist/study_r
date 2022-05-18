@@ -107,12 +107,10 @@ class(coronavirus)
 
     ## [1] "data.frame"
 
-`dataset` นี้มีลักษณะเป็น `list` ซ้อนกันอยู่ โดยมีข้อมูลเป็น `data.frame` ใน `dataset` นี้ มีตัวแปรแบบกลุ่มที่เห็นได้ชัดคือ `country` และ `province` ในขณะที่ตัวแปรแบบต่อเนื่องคือ จำนวน `case` `population` (ที่เหลือเดี๋ยวสนุกแล้วกลับมาเล่นได้นะ)
+`dataset` นี้มีลักษณะเป็น `list` ซ้อนกันอยู่ โดยมีข้อมูลเป็น `data.frame` ใน `dataset` นี้ มีตัวแปรแบบกลุ่มที่เห็นได้ชัดคือ `country` และ `province` ในขณะที่ตัวแปรแบบต่อเนื่องคือ จำนวน `case` `population` (ที่เหลือเดี๋ยวสนุกแล้วกลับมาเล่นได้นะ) เราจะเรียกใช้เพียง country, province, case, population เท่านั้น วิธีการด้านล่างจะเรียกว่าวิธีการ `subset` ซึ่งจะมีการพูดถึงในส่วนถัดไป
 
-เราจะเรียกใช้เพียง country, province, case, population เท่านั้น วิธีการด้านล่างจะเรียกว่าวิธีการ `subset` ซึ่งจะมีการพูดถึงในส่วนถัดไป
+*subset ให้เหลือแค่ country, province, case, population*
 
-
-- subset ให้เหลือแค่ country, province, case, population
 - 
 ``` r
 Data <- coronavirus[c("date", "province", "country", "cases", "population")]
@@ -141,8 +139,9 @@ str(Data)
 
 ถ้าเราอยากเปลี่ยนชนิดของตัวแปร เช่น เปลี่ยน province ให้เป็น factor เราสามารถทำได้โดยการ เรียกชื่อ `file` และ ใช้ `$` (เรียกว่า dolla sign) และชื่อ `column` ที่มีตัวแปรนั้นอยู่ เช่น `as.factor(data$columnx)`เมื่อแปลงเป็น `factor` เรียบร้อยแล้ว เราสามารถเรียกดูชนิดได้โดยใช้คำสั่ง `is.factor()`
 
-- ลองเปลี่ยนคอลลัมภ์ province ให้เป็น `factor`
-- 
+
+*ลองเปลี่ยนคอลลัมภ์ province ให้เป็น `factor`*
+
 ``` r
 Data$province <- as.factor(Data$province)
 is.factor(Data$province)
