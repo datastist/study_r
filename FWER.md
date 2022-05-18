@@ -1,7 +1,7 @@
 # Family-Wise Error Rate
 
 
-<img src="https://github.com/amaiesc/study_r/blob/master/pics/cat_meditate.png?raw=true" alt="cat" style="width:150;height:150px;"> </img>    
+<img src="https://github.com/amaiesc/study_r/blob/master/pics/cat_meditate.png?raw=true" alt="cat" style="width:150;height:150px;">  
 : อะไรอีกเน้ออ
 
 
@@ -11,7 +11,7 @@
 
 เราต้องย้อนกลับไปในช่วงที่นักคณิตศาตร์พยายามหาจุดตัดที่จะปฎิเสธหรือยอมรับสมมติฐานว่าง (null hypothesis)
 
-<img src="https://github.com/amaiesc/study_r/blob/master/pics/P-2.png?raw=true" alt="cat" style="width:250;height:250px;"> </img>
+<img src="https://github.com/amaiesc/study_r/blob/master/pics/P-2.png?raw=true" alt="cat" style="width:250;height:250px;">
 
 > **นักคณิตศาสตร์ A :** พวกเรา ฉันว่าให้การ error มันเกิดขึ้น 5 ใน 100
 > ครั้งมันก็โอเคนะ
@@ -42,7 +42,7 @@
 > ถ้าเรายอมให้โอกาส error เกิดขึ้น 0.05 ใน 1 คู่ แล้วถ้าเราทดสอบ 4 คู่
 > ค่า error นี้จะเท่ากับเท่าไหร่?
 
-<img src="https://github.com/amaiesc/study_r/blob/master/pics/cat_meditate.png?raw=true" alt="cat" style="width:150;height:150px;"> </img>                 
+<img src="https://github.com/amaiesc/study_r/blob/master/pics/cat_meditate.png?raw=true" alt="cat" style="width:150;height:150px;">  
 : ก็ 0.05 น่ะสิ
 
 *ผิด!!!!!*
@@ -89,7 +89,7 @@ FWE_10_pairs
 
 ### P-hacking or P-harking
 
-<img src="https://github.com/amaiesc/study_r/blob/master/pics/P.png?raw=true" alt="cat" style="width:150;height:150px;"> </img>
+<img src="https://github.com/amaiesc/study_r/blob/master/pics/P.png?raw=true" alt="cat" style="width:150;height:150px;">
 
 
 ถ้าจะอธิบายให้เกี่ยวข้องกับบทความนี้ p-hacking คือการที่ผู้วิจัยรายงานผลการเปรียบเทียบรายคู่แบบ family โดยไม่ปรับ α *ทั้งตั้งใจและไม่ตั้งใจ* ทำให้โอกาสการเกิด false positive มากขึ้น ผลก็คือทำให้งานวิจัยนั้น ๆ พบผลที่จริงๆ ไม่มีผล (see: Type I & Type II error) ทำให้ผู้อ่านและสังคมนักวิจัยงงกับผลที่ได้อ่านมา (ทุกวันนี้แมวก็ยังงงอยู่~)
