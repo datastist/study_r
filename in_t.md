@@ -29,7 +29,6 @@
 
 เราลองมาสร้างข้อมูลจากโจทย์กัน
 
-``` r
     A <- rnorm(23, mean = 5, sd = 1.8)
     B <- rnorm(26, mean = 5.2, sd = 2.1)
     # combine row
@@ -38,49 +37,54 @@
     job_sat <- melt(job_sat, id.vars = c("A", "B"))
     colnames(job_sat) <- c("ID", "company", "job_sat_score")
     head(job_sat)
-```
 
     ##   ID company job_sat_score
-    ## 1  1       A      9.583882
-    ## 2  2       A      5.635036
-    ## 3  3       A      3.835516
-    ## 4  4       A      3.362858
-    ## 5  5       A      6.682713
-    ## 6  6       A      3.406547
+    ## 1  1       A      4.524639
+    ## 2  2       A      6.999153
+    ## 3  3       A      2.226317
+    ## 4  4       A      6.844786
+    ## 5  5       A      3.591353
+    ## 6  6       A      2.069014
 
-**Note** ด้วยคำสั่ง `rnorm()` เราจะพบว่าค่าเฉลี่ยอาจจะไม่เท่ากับที่เก็บข้อมูลมา
+Note ด้วยคำสั่ง `rnorm()`
+เราจะพบว่าค่าเฉลี่ยอาจจะไม่เท่ากับที่เก็บข้อมูลมา
 
-##ทดสอบข้อตกลงเบื้องต้น
+ทดสอบข้อตกลงเบื้องต้น
 
 -   ค่าสุดโต่ง
 
+<!-- -->
+
     boxplot(job_sat_score ~ company, job_sat)
 
-![](docs/in_t_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](in_t_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
 ในกราฟ `boxplot()` ไม่มีค่าสุดโต่ง
 
 -   homogeneity of variances
 
-``` r
+<!-- -->
+
     t.model <- aov(job_sat_score ~ company, job_sat)
     car::leveneTest(t.model)
-```
 
     ## Levene's Test for Homogeneity of Variance (center = median)
-    ##       Df F value Pr(>F)
-    ## group  1  0.3497  0.557
-    ##       50
+    ##       Df F value Pr(>F)  
+    ## group  1  3.1567 0.0817 .
+    ##       50                 
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-การที่ผลไม่ significant หรือ Pr(&gt;F) ไม่น้อยกว่า 0.05 แปลว่าข้อมูลไม่ละเมิดข้อตกลงนี้ค่ะ
+การที่ผลไม่ significant หรือ Pr(&gt;F) ไม่น้อยกว่า 0.05
+แปลว่าข้อมูลไม่ละเมิดข้อตกลงนี้ค่ะ
 
 -   Normality
 
-``` r
-    car::qqPlot(job_sat_score ~ company, job_sat)
-```
+<!-- -->
 
-![](docs/in_t_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+    car::qqPlot(job_sat_score ~ company, job_sat)
+
+![](in_t_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
 ผลจาก `qqPlot()` ก็ไม่ได้ระบุถึงความ Anormality
 
@@ -88,60 +92,62 @@
 
 เมื่อไม่พบข้อมูลที่ละเมิดข้อตกลงเบื้องต้น เราจะนำข้อมูลไปทดสอบ t ต่อไป
 
-``` r
     t.test(job_sat_score ~ company, job_sat, var.equal = TRUE)
-```
 
     ## 
     ##  Two Sample t-test
     ## 
     ## data:  job_sat_score by company
-    ## t = 1.2665, df = 50, p-value = 0.2112
+    ## t = -1.878, df = 50, p-value = 0.06622
     ## alternative hypothesis: true difference in means between group A and group B is not equal to 0
     ## 95 percent confidence interval:
-    ##  -0.3969554  1.7518356
+    ##  -2.15183140  0.07230739
     ## sample estimates:
     ## mean in group A mean in group B 
-    ##        5.347321        4.669880
+    ##        4.195654        5.235416
 
-เราจะพบว่าค่า t = 1.047 และ p job\_sat\_score อยู่ที่ 0.3 แปลว่า ไม่มีความแตกต่างกันระหว่างพนักงานในบริษัท A และ B
+เราจะพบว่าค่า t = 1.047 และ p job\_sat\_score อยู่ที่ 0.3 แปลว่า
+ไม่มีความแตกต่างกันระหว่างพนักงานในบริษัท A และ B
 
-แต่ถ้าสมมติว่าเราทดสอบ Homogeneity Test แล้วพบว่า Variance ของสองกลุ่มไม่เท่ากัน เราสามารถงดใส่คำสั่ง `var.equal = TRUE` หรือเปลี่ยนจาก TRUE เป็น FALSE
+แต่ถ้าสมมติว่าเราทดสอบ Homogeneity Test แล้วพบว่า Variance
+ของสองกลุ่มไม่เท่ากัน เราสามารถงดใส่คำสั่ง var.equal = TRUE
+หรือเปลี่ยนจาก TRUE เป็น FALSE
 
-``` r
     t.test(job_sat_score ~ company, job_sat, var.equal = FALSE)
-```
 
     ## 
     ##  Welch Two Sample t-test
     ## 
     ## data:  job_sat_score by company
-    ## t = 1.2665, df = 48.417, p-value = 0.2114
+    ## t = -1.878, df = 43.748, p-value = 0.06706
     ## alternative hypothesis: true difference in means between group A and group B is not equal to 0
     ## 95 percent confidence interval:
-    ##  -0.3978265  1.7527066
+    ##  -2.15578291  0.07625889
     ## sample estimates:
     ## mean in group A mean in group B 
-    ##        5.347321        4.669880
+    ##        4.195654        5.235416
 
 จะเห็นว่าผล output บรรทัดบนสุกเปลี่ยนไปเป็น
 
     Welch Two Sample t-test
 
-แปลว่าเราเลือกใช้สถิติ Welch t-test ที่มีความแข็งแกร่งในการต่อสู้กับการไม่เท่ากันของ Variances มากกว่า ผลที่ออกมามีความคล้ายคลึงกัน ดูได้จาก Output ค่า
+แปลว่าเราเลือกใช้สถิติ Welch t-test
+ที่มีความแข็งแกร่งในการต่อสู้กับการไม่เท่ากันของ Variances มากกว่า
+ผลที่ออกมามีความคล้ายคลึงกัน ดูได้จาก Output ค่า
 
-### Plot Graph เป็นกิจวัตร
+### Plot Graph habitually ·
 
-``` r
     library(ggplot2)
     ggplot(job_sat) +
       geom_density(aes(x = job_sat_score, fill = company), alpha = .5) +
-      geom_vline(xintercept = 4.809946, color = "red") +
-      geom_vline(xintercept = 5.379535, color = "blue") +
+      geom_vline(xintercept = 4.809946, color = "gray") +
+      geom_vline(xintercept =  5.379535, color = "gray") +
                      theme_classic() +
-                     scale_fill_brewer(palette="Accent")
+                     scale_fill_brewer(palette="Accent") +
+      scale_color_brewer(palette="Accent")
 
-```
-![](docs/in_t_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](in_t_files/figure-markdown_strict/unnamed-chunk-7-1.png)
 
-~ เธอเห็นเส้นตรงนั่นไหม ~ ถ้าไม่ขยายกราฟออกมาจะไม่รู้เลยว่าค่าเฉลี่ยแต่ละกลุ่มต่างกัน
+~ เธอเห็นเส้นตรงนั่นไหม ~ เส้นสองเส้นนั้นคือค่า Mean ของแต่ละกลุ่ม
+การที่กราฟซ้อนทับกันมาก
+แปลว่ากลุ่มตัวอย่างสองกลุ่มแทบไม่แตกต่างกันเลยค่ะ
