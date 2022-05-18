@@ -1,7 +1,8 @@
 # Family-Wise Error Rate
 
 
-<img src="https://github.com/amaiesc/study_r/blob/master/pics/cat_meditate.png?raw=true" alt="cat" style="width:150;height:150px;"> </img>    : อะไรอีกเน้ออ
+<img src="https://github.com/amaiesc/study_r/blob/master/pics/cat_meditate.png?raw=true" alt="cat" style="width:150;height:150px;"> </img>    
+: อะไรอีกเน้ออ
 
 
 **Family-Wise Error** คือการที่เราทดสอบทางสถิติหลาย ๆ คู่ แต่ดันใช้ค่า **แอลฟ่า (alpha;** **α) = 0.05 ในทุกคู่
@@ -41,7 +42,8 @@
 > ถ้าเรายอมให้โอกาส error เกิดขึ้น 0.05 ใน 1 คู่ แล้วถ้าเราทดสอบ 4 คู่
 > ค่า error นี้จะเท่ากับเท่าไหร่?
 
-<img src="https://github.com/amaiesc/study_r/blob/master/pics/cat_meditate.png?raw=true" alt="cat" style="width:150;height:150px;"> </img>                 : ก็ 0.05 น่ะสิ
+<img src="https://github.com/amaiesc/study_r/blob/master/pics/cat_meditate.png?raw=true" alt="cat" style="width:150;height:150px;"> </img>                 
+: ก็ 0.05 น่ะสิ
 
 *ผิด!!!!!*
 
