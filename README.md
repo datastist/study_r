@@ -43,6 +43,7 @@ ____________________________________
      - [Confident Interval : ช่วงความเชื่อมั่น](http://amaiesc.github.io/study_rp/CI.html)
      - [Mean Application to Central Limit Teorem](http://amaiesc.github.io/study_r/CLT.html)
      - [Family-wise error rate](https://amaiesc.github.io/study_r/FWER.html)
+     - [Practical Significant Vs. Statistical Significant](https://amaiesc.github.io/study_r/p_s_sig.html)
 
 
 -  **R for Data Analysis**
