@@ -96,3 +96,7 @@ FWE_10_pairs
 
 
 #### ดังนั้น ลูกแมวปรับ **α กันเถิด เพราะการวิเคราะห์ผลและรายงานผล เราควรจะทำอยู่บน practice ที่ดีน้า**
+
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
