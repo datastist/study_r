@@ -20,7 +20,7 @@ Analysis of Variances คือ การวิเคราะห์ความ
 
 ### variance มีความสำคัญอย่างไร
 
-ถ้าย้อนกลับไปในเรื่อง [**CLT**]() เราจะเริ่มคุ้นเคยกับ Standard Deviation (ค่าเบี่ยงเบนออกไปจากค่าเฉลี่ย)
+ถ้าย้อนกลับไปในเรื่อง [**CLT**](https://amaiesc.github.io/study_r/CLT.html) เราจะเริ่มคุ้นเคยกับ Standard Deviation (ค่าเบี่ยงเบนออกไปจากค่าเฉลี่ย)
 
 ![](https://github.com/amaiesc/study_r/blob/master/pics/SD.png?raw=true)
 
@@ -31,7 +31,7 @@ Analysis of Variances คือ การวิเคราะห์ความ
 >
 > แล้วมันมีความสำคัญอย่างไร?
 
-Variances จะช่วยอธิบายตัวแปรที่เราต้องการอธิบาย หรือตัวแปรตาม นี่แหละ
+Variance จะช่วยอธิบายตัวแปรที่เราต้องการอธิบาย หรือตัวแปรตาม นี่แหละ
 
 ### ANOVA คืออะไร
 
@@ -198,11 +198,11 @@ contrast(emmeans(model_1way_anova, ~ year), method = "pairwise", adjust = "bonfe
 
 >
 > แล้วอะไรคือ contrast pairwise bonferroni งงมากเลยแมว
-
-
 อันนี้ต้องเอา concept เรื่องการทดสอบคู่ไปอ่านก่อนนะ
 
-### สร้างกราฟให้เป็นนิสัย
+*Note* Concept สามารถอ่านได้ที่ [contrast]()
+
+### สร้างกราฟให้เป็นกิจวัตร
 
 ``` r
 emm <- emmeans(model_1way_anova, ~ year)
@@ -218,3 +218,7 @@ ggplot(emm.s) +
 ```
 
 ![](docs/1_anova_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
