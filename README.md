@@ -29,21 +29,21 @@ ____________________________________
 
 ## แมวเรียน R ภาษาไทย ##
 -  **R เริ่มต้นสำหรับแมว**
-     -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/basic_.html)
-     -   [การ install package in R](https://amaiesc.github.io/study_r/install_pac_.html)
-     -   [ชนิดของข้อมูลใน R](https://amaiesc.github.io/study_r/type_of_.html)
-     -   [การ index และ subset ข้อมูล](https://amaiesc.github.io/study_r/index_subset_.html)
+     -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/basic_coding.html)
+     -   [การ install package in R](https://amaiesc.github.io/study_r/install_package.html)
+     -   [ชนิดของข้อมูลใน R](https://amaiesc.github.io/study_r/type_of_r.html)
+     -   [การ index และ subset ข้อมูล](https://amaiesc.github.io/study_r/index_subset.html)
 
 
 -  **Basic Statistical Concepts**
-     - [Normal Distribution](http://amaiesc.github.io/study_r/normal_dis.html)
+     - [Normal Distribution](http://amaiesc.github.io/study_r/normal_distribution.html)
      - [Normal Distribution ในโลกความเป็นจริง](http://amaiesc.github.io/study_r/outliers_1.html)
-     - [Hypothesis Testing & Sampling Distribution](http://amaiesc.github.io/study_r/sample_dis_.html)
-     - [Type I & Type II error](http://amaiesc.github.io/study_r/error.html)
+     - [Hypothesis Testing & Sampling Distribution](http://amaiesc.github.io/study_r/sample_distribution.html)
+     - [Type I & Type II error](http://amaiesc.github.io/study_r/type_of_error.html)
      - [Confident Interval : ช่วงความเชื่อมั่น](http://amaiesc.github.io/study_rp/CI.html)
      - [Mean Application to Central Limit Teorem](http://amaiesc.github.io/study_r/CLT.html)
      - [Family-wise error rate](https://amaiesc.github.io/study_r/FWER.html)
-     - [Practical Significant Vs. Statistical Significant](https://amaiesc.github.io/study_r/p_s_sig.html)
+     - [Practical Significant Vs. Statistical Significant](https://amaiesc.github.io/study_r/significance.html)
 
 
 -  **R for Data Analysis**
@@ -52,9 +52,9 @@ ____________________________________
      - [Multiple Regression : สมการถดถอยพหุ](http://amaiesc.github.io/study_r/multiple_regression.html)
      - [t-test : การเปรียบเทียบโดยใช้ค่าเฉลี่ยของกลุ่ม](http://amaiesc.github.io/study_r/t_test_overall.html)
           - [One-sample t.test](http://amaiesc.github.io/study_r/one_t.html)
-          - [Independent t.test](http://amaiesc.github.io/study_r/in_t.html)
+          - [Independent t.test](http://amaiesc.github.io/study_r/independent_t.html)
           - [Dependent t.test](http://amaiesc.github.io/study_r/paired_t.html)
-     - [Analysis of Variances : แปรปรวนมาก](http://amaiesc.github.io/study_r/1_anova.html)
+     - [Analysis of Variances : แปรปรวนมาก](http://amaiesc.github.io/study_r/one_way_anova.html)
      - [Data Cleaning]()
      - [Missing Data]()
 
