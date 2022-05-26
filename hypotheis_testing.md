@@ -138,4 +138,6 @@ t.test(donut ~ Gender, data = data_donut, var.equal = TRUE)
 
 บทต่อไปเราจะพูดถึงการปฎิเสธสมมติฐานว่าง (null hypothesis; Ho) หรือยอมรับสมมติฐานทางเลือก (alternative hypothesis; Ha)
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
