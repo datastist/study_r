@@ -241,6 +241,31 @@ summary(data)
 
 จะพบว่าเมื่อเทียบกันทั้งสองโมเดลแล้ว มีความแตกต่างอย่างมีนัยสำคัญ p &lt; 0.001 โดยที่ changed Rsquare อยู่ที่ 0.98 - 0.33 = 0.66 หรือ 66%
 
+#### มาสร้างกราฟให้เป็นนิสัย
+
+``` r
+    library(ggplot2)
+```
+
+    ## 
+    ## Attaching package: 'ggplot2'
+
+    ## The following objects are masked from 'package:psych':
+    ## 
+    ##     %+%, alpha
+
+``` r
+ggplot(data) +
+      geom_bar(aes(x = gender, y = saving, fill = gender), stat = "summary") +
+      theme_classic() +
+      scale_fill_brewer(palette = 1)
+```
+
+
+
+![](docs/hirarchical_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+
+
 ทาด้า จบแล้วจ้า เดี๋ยวมีเสริมการใส่ตัวแปร dummy มากกว่า 2 ตัว ในสมการค่า~~
 
 ------
