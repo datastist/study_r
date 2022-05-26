@@ -151,5 +151,6 @@ is.factor(Data$province)
 
 ถ้าเราต้องการเปลี่ยนเป็นชนิดอื่น ๆ ก็ใช้คำสั่ง `as.____()` R จะมี `dropdown` ลงมาให้ว่ามีตัวเลือกอะไรให้บ้าง เช่น `as.numeric()`
 
-_____________________________
-
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
