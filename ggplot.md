@@ -374,4 +374,8 @@ RColorBrewer::display.brewer.all()
 
 ![](https://raw.githubusercontent.com/amaiesc/study_r/master/docs/unnamed-chunk-16-1.png)
 
-[1] this tutorial was in associated with Psychology Faculty, Chulalongkorn University (Experimental Design And Analysis course).
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
+
+**this tutorial was in associated with Psychology Faculty, Chulalongkorn University (Experimental Design And Analysis course)**
