@@ -27,7 +27,9 @@ ____________________________________
 > Truly,
 > <b> Sirinapa </b>
 
-## แมวเรียน R ภาษาไทย ##
+------------------
+
+## R for beginners ##
 -  **R เริ่มต้นสำหรับแมว**
      -   [เบสิคที่ควรรู้ใน R](https://amaiesc.github.io/study_r/basic_coding.html)
      -   [การ install package in R](https://amaiesc.github.io/study_r/install_package.html)
