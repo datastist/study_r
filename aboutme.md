@@ -7,10 +7,20 @@
 ___________________________________________________________________________________________________________________________________
 
 > **About me**
+
+
+> I am a data scientist working in Singapore & Thailand. I am also an adjunct lecturer at Psychology Faculty, Chulalongkorn University, Thailand. I teach in Experimental design & Analysis in Fall, and Survey Design & Analysis in Spring.
+
+
+> The purpose of datastist.com is for free-open-resources for students, so everyone can access any contents.
+> If you need assistance in Research & Data Analysis, Please e-mail me personally @ amaiesc@gmail.com
+
+> 
+> Have A Wonderful Day!
 > 
 > [*Click to read.*](https://amaiesc.github.io/study_r/me.html)
-
-
+>
+>
 > [*click to website.*](http://www.datastist.com)
 >
 > 
