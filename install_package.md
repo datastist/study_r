@@ -42,6 +42,6 @@ psych::describe()
 สามารถอ่าน manual การใช้ package ได้ที่
 [http://cran.r-project.org/doc/manuals/R-admin.html](http://cran.r-project.org/doc/manuals/R-admin.html)
 
-_________________________________
-
-_________________________________
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
