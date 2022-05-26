@@ -1,6 +1,7 @@
-# ทำความคุ้นเคยกับความสัมพันธ์แบบเส้นตรง
+# Correlation
+ทำความคุ้นเคยกับความสัมพันธ์แบบเส้นตรง
 
-## ความสัมพันธ์ สหสัมพันธ์ หรือ correlation
+## ความสัมพันธ์ สหสัมพันธ์ หรือ Pearson's product correlation (r)
 
 การทดสอบ correlation คือการทดสอบความสัมพันธ์ระหว่างตัวแปร 2 ตัว ซึ่งจะทำให้เรารู้ว่า เมื่อตัวหนึ่งเพิ่มขึ้นอีกตัวเพิ่มขึ้นตามไหม
 
@@ -29,8 +30,7 @@ head(data)
     ## [5,]     5         74          4
     ## [6,]     6         85          6
 
-หลังจากนั้นเราจะใช้ `scatter plot` ด้วยคำสั่ง `scatter.smooth()`
-ในการดูความสัมพันธ์ด้วยสายตาของ Grade กับ น้ำหนักเฉลี่ย (Avg\_weight)
+หลังจากนั้นเราจะใช้ `scatter plot` ด้วยคำสั่ง `scatter.smooth()` ในการดูความสัมพันธ์ด้วยสายตาของ Grade กับ น้ำหนักเฉลี่ย (Avg\_weight)
 
 ``` r
 scatter.smooth(Grade, Avg_weight, family = "gaussian")
@@ -97,4 +97,6 @@ cor.test(Grade, Avg_coffee)
 
 จากผลการทดสอบของ Pearson’s correaltion `Grade` และ `Avg_Coffee` มีความสัมพันธ์กันที่ 0.442 ซึ่งไม่ถึงนัยสำคัญทางสถิติ
 
-เย้!
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
