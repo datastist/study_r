@@ -124,3 +124,7 @@ ggplot(data_donut, aes(x = Gender, y = donut, fill = Gender)) +
 ![](docs/CI_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
 จะเห็นได้ว่าเส้นสีเท่าคือช่วงของ effect size cohens’ d ซึ่งจะบอกความแรง ความแตกต่างของข้อมูลทั้งสองกลุ่ม เดี๋ยวเราจะกลับมาเรียนเรื่อง effect size อีกที รอหน่อยน้า ~
+
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
