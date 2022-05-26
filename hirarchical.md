@@ -14,8 +14,6 @@ Hirarchical Regression สมการถอดถอยแบบลำดับ
 
 #### เราลองมาเริ่มสร้างข้อมูลกัน
 
-![](https://github.com/amaiesc/study_r/blob/master/docs/p_s_sig_files/figure-markdown_strict/Gender%20สามารถอธิบายจำนวนเงินเก็บเฉลี่ยในแต่ละสัปดาห์ได้มากแค่ไหน%20เมื่อควบคุมอายุและจำนวนคนในบ้าน.png?raw=true)
-
 
 ``` r
 set.seed(1990)
@@ -270,4 +268,6 @@ ggplot(data) +
 
 ทาด้า จบแล้วจ้า เดี๋ยวมีเสริมการใส่ตัวแปร dummy มากกว่า 2 ตัว ในสมการค่า~~
 
-------
+______
+Happy Coding ka
+สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
