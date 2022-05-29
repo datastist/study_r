@@ -1,9 +1,9 @@
 remote_theme: just-the-docs/just-the-docs
 ---
 layout: default
-title: Buttons
+title: Study with Cats
 parent: UI Components
-nav_order: 1
+nav_order: 0
 ---
 
   
