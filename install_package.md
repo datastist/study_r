@@ -1,4 +1,4 @@
-## การ Install Package ใน R
+# Installing Packages in R
 
 ### อะไรคือ package ใน R?
 
