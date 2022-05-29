@@ -1,12 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
+layout: default
+title: UI Components
+nav_order: 2
+has_children: true
+has_toc: false
 
-
-collections: "Lessons"
-
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  collections:
-    docs: "study r"
