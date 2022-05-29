@@ -1,7 +1,8 @@
-# one-way ANOVA (analysis of variances)
+# one-way ANOVA 
 
-บทนี้ต้องเริ่มต้นด้วยการแปล
-เหมียวบอก
+**analysis of variances**
+
+บทนี้ต้องเริ่มต้นด้วยการแปลคำศัพท์ คือ
 Analysis of Variances คือ การวิเคราะห์ความแปรปรวน
 
 > ความแปรปรวนแบบผู้หญิงเมนส์หรือเปล่า
