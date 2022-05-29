@@ -1,4 +1,4 @@
-# Commands vs. Functions
+# Commands and Functions
 
 ในบทนี้เราจะมาเรียนเรื่อง commands และ functions
 ที่ใช้บ่อยในการเขียนภาษา R กันนะคะ
