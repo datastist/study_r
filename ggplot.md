@@ -1,6 +1,7 @@
 
-# Data Visualization with ggplot2
+# Data Visualization 
 
+**with ggplot2**
 
 การสร้างภาพข้อมูลหรือ Data Visualization ช่วยให้เราเข้าใจชุดข้อมูลที่มีความซับซ้อนได้ง่ายขึ้นและทำให้เราตัดสินใจในการจัดการกับข้อมูลเร็วขึ้น
 ซึ่ง Data Visualization สามารถทำได้ทั้งก่อนและหลังการวิเคราะห์เชิงสถิติ
