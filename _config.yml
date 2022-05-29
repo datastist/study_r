@@ -1,10 +1,10 @@
 remote_theme: just-the-docs/just-the-docs
 ---
 layout: default
-title: Study with Cats
-parent: UI Components
-nav_order: 0
+title: 404
+nav_exclude: true
 ---
+
 
   
 
