@@ -1,5 +1,10 @@
 remote_theme: just-the-docs/just-the-docs
-
+---
+layout: default
+title: Buttons
+parent: UI Components
+nav_order: 1
+---
 
   
 
