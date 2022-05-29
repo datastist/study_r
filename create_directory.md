@@ -1,4 +1,4 @@
-# การสร้าง Working Directory ใน R studio
+# Create Working Directory in R studio
 
 Directory คือการเชื่อมระหว่าง folder (workspace) ของเราในคอมพิวเตอร์กับใช้งาน R ซึ่งจะช่วยให้เราเลือกไฟล์ที่เคยบันทึกไว้ออกมาใช้งานได้ง่ายขึ้น
 
