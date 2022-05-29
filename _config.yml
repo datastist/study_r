@@ -1,4 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
+
 layout: default
-title: 404
-nav_exclude: true
+title: Customization
+nav_order: 4
+
