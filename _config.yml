@@ -1,10 +1,10 @@
 remote_theme: just-the-docs/just-the-docs
 layout: default
-title: UI Components
-    nav_order: 2
-    has_children: false
-    has_toc: false
-    
-collections:
-  - staff_members
+title: Datas[ar]tist
+collections: lessons
+  docs: 
+    permalink: "/:study_r/:pics/"
+    output: true
+
+  
 
