@@ -1,10 +1,5 @@
-remote_theme: just-the-docs/just-the-docs
-layout: default
-title: Datas[ar]tist
-collections: lessons
-  docs: docs_
-    permalink: "/:collections/:path/"
-    output: true
+remote_theme: mdo/lanyon
+
 
   
 
