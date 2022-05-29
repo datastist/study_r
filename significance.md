@@ -1,4 +1,4 @@
-# Practical Significance Vs. Statistical Significance
+# Practical Vs. Statistical Significant
 
 ในการวิเคราะห์ทางสถิติ ส่วนหนึ่งที่สำคัญมากในการตัดสินใจว่าเราจะปฎิเสธสมมติฐานว่าง หรือ `Null Hypothesis` หรือไม่นั้นก็คือ Power, alpha และ effect size อย่างที่เคยกล่าวมาก่อนหน้านี้
 
