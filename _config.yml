@@ -2,8 +2,8 @@ remote_theme: just-the-docs/just-the-docs
 layout: default
 title: Datas[ar]tist
 collections: lessons
-  docs: 
-    permalink: "/:study_r/:pics/"
+  docs: docs_
+    permalink: "/:collections/:path/"
     output: true
 
   
