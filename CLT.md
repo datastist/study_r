@@ -1,4 +1,4 @@
-# อะไรคือ Central limit Theorem; CLT
+# Central limit Theorem (CLT)
 
 จากความเข้าใจเรื่อง Normal Distribution เราจะเข้าใจถึงคอนเซ็ป Central Limited Theorem (CLT) นั่นก็คือ
 
