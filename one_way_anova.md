@@ -1,4 +1,4 @@
-# one-way ANOVA 
+# One-way ANOVA 
 
 **analysis of variances**
 
