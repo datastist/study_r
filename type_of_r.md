@@ -1,5 +1,5 @@
 
-# Type&Class of R's Objects
+# Type & Class of R Objects
 
 ข้อมูลที่เราได้จาก database หรือการเก็บมาเองจะมีลำดับของมาตรส่วน หรือที่เรียกว่า Level of Measurements
 
