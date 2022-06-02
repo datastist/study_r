@@ -211,11 +211,20 @@ Type I error หรือ False positive สูงขึ้น (see Type I & Typ
 เช่น ANOVA vs. Linear Regression
 
 **ANOVA**
-![](docs/Sum_of_Sq_files/figure-markdown_strict/unnamed-chunk-6-1.png)
-![](docs/Sum_of_Sq_files/figure-markdown_strict/unnamed-chunk-6-1.png)
-![](docs/Sum_of_Sq_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](docs/Sum_of_Sq_files/figure-markdown_strict/1.png)
 
+
+![](docs/Sum_of_Sq_files/figure-markdown_strict/2.png)
+
+
+![](docs/Sum_of_Sq_files/figure-markdown_strict/3.png)
+
+
+
+``` r
     plot(model_typeI, 1)
+```
+
 
 ![](docs/Sum_of_Sq_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 
