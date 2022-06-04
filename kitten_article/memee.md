@@ -1,6 +1,8 @@
 # Moderation 
 
 **หรือ ตัวแปรกำกับนำไปใช้กับอะไรได้บ้างน้า~**
+
+
 article by : Cat Memee~~
 
 
@@ -12,14 +14,16 @@ article by : Cat Memee~~
 >*แล้วตัวแปรกำกับจะมากำกับอะไร?*
 >
 >*วันนี้เราจะได้รู้กัน!*
+>
+
+
 
 วันนี้เราจะมาพูดถึงกันเรื่องงานวิจัยที่ผ่านมากว่า 3 ปี (2019) แล้ว ซึ่งเป็นหัวข้อที่ถ้ามีโอกาสเราก็ยังอยากที่จะมาศึกษาเรื่องนี้ต่อ นั่นคือเรื่อง 
 
 
-### **FUTURE TIME PERSPECTIVE AS A MODERATOR IN THE ASSOCIATION BETWEEN GENERATIVITY, SOCIAL SUPPORT AND SUCCESSFUL AGING**
-
-
+## FUTURE TIME PERSPECTIVE AS A MODERATOR IN THE ASSOCIATION BETWEEN GENERATIVITY, SOCIAL SUPPORT AND SUCCESSFUL AGING 
 “ความสัมพันธ์ของการส่งต่อชนรุ่นหลังและแรงสนับสนุนทางสังคมที่มีต่อผู้ใหญ่ที่ประสบความสำเร็จ โดยมีการรับรู้เวลาที่เหลืออยู่ในชีวิตเป็นตัวแปรกำกับ” 
+- - -
 
 แค่ชื่องานวิจัย หลายคนก็แอบงงแล้วใช่มั้ยคะ (555)
 
