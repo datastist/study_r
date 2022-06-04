@@ -11,7 +11,7 @@ Directory คือการเชื่อมระหว่าง folder (work
      #ใช้คำสั่ง list.files() ในการดูไฟล์ใน workspace
     
     
-![r]()
+![r](pics/Script-2.png)
 
 # รายละเอียดในการเขียน R language
 
