@@ -1,4 +1,4 @@
-# R for data generation
+# R for data generating
 
 ปกติแล้ว เราจะใช้ชุดช้อมูลที่มาจากการเก็บข้อมูลของเราเอง ทั้งแบบ Survey และ Experiment หรือมาจาก database SQL
 
