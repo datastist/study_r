@@ -90,7 +90,7 @@ data <- data("coronavirus")
 ```
 การเลือกโดยการระบุพิกัดมีความยืดหยุ่นมากใน R เช่น หากต้องการเรียกแถวที่ `1` ถึง `200` และ เรียกทุก ๆ คอลลัมภ์ เราสามารถใช้ `[1:200, ]` กับ `dataset` ได้เลย แต่ถ้าหากว่าเราต้องการข้อมูลที่แถว `1:10, 15, 16, 19, และ 200` ในทุก ๆ คอลลัมภ์ เราสามารถเขียน `[c(1:10, 15, 16, 19, 200), ]`จะพบว่าจำนวนแถวจะตรงกับแถวที่เราต้องการ
 
-- ต้องการข้อมูลแถวที่ 1 - 200 ในทุกคอลลัมภ์
+- ต้องการข้อมูลแถวที่ 1 - 200 ในทุกคอลลัมภ์ (ปกติจะขี้นมา 200 แถวค่า แต่ว่าเพื่อเป็นการยกตัวอย่างจึงตัดตรงกลางออก)
     
 ``` r
 Data[1:200, ]
@@ -107,171 +107,7 @@ Data[1:200, ]
     ## 8   2020-01-29  Alberta  Canada     0    4413146
     ## 9   2020-01-30  Alberta  Canada     0    4413146
     ## 10  2020-01-31  Alberta  Canada     0    4413146
-    ## 11  2020-02-01  Alberta  Canada     0    4413146
-    ## 12  2020-02-02  Alberta  Canada     0    4413146
-    ## 13  2020-02-03  Alberta  Canada     0    4413146
-    ## 14  2020-02-04  Alberta  Canada     0    4413146
-    ## 15  2020-02-05  Alberta  Canada     0    4413146
-    ## 16  2020-02-06  Alberta  Canada     0    4413146
-    ## 17  2020-02-07  Alberta  Canada     0    4413146
-    ## 18  2020-02-08  Alberta  Canada     0    4413146
-    ## 19  2020-02-09  Alberta  Canada     0    4413146
-    ## 20  2020-02-10  Alberta  Canada     0    4413146
-    ## 21  2020-02-11  Alberta  Canada     0    4413146
-    ## 22  2020-02-12  Alberta  Canada     0    4413146
-    ## 23  2020-02-13  Alberta  Canada     0    4413146
-    ## 24  2020-02-14  Alberta  Canada     0    4413146
-    ## 25  2020-02-15  Alberta  Canada     0    4413146
-    ## 26  2020-02-16  Alberta  Canada     0    4413146
-    ## 27  2020-02-17  Alberta  Canada     0    4413146
-    ## 28  2020-02-18  Alberta  Canada     0    4413146
-    ## 29  2020-02-19  Alberta  Canada     0    4413146
-    ## 30  2020-02-20  Alberta  Canada     0    4413146
-    ## 31  2020-02-21  Alberta  Canada     0    4413146
-    ## 32  2020-02-22  Alberta  Canada     0    4413146
-    ## 33  2020-02-23  Alberta  Canada     0    4413146
-    ## 34  2020-02-24  Alberta  Canada     0    4413146
-    ## 35  2020-02-25  Alberta  Canada     0    4413146
-    ## 36  2020-02-26  Alberta  Canada     0    4413146
-    ## 37  2020-02-27  Alberta  Canada     0    4413146
-    ## 38  2020-02-28  Alberta  Canada     0    4413146
-    ## 39  2020-02-29  Alberta  Canada     0    4413146
-    ## 40  2020-03-01  Alberta  Canada     0    4413146
-    ## 41  2020-03-02  Alberta  Canada     0    4413146
-    ## 42  2020-03-03  Alberta  Canada     0    4413146
-    ## 43  2020-03-04  Alberta  Canada     0    4413146
-    ## 44  2020-03-05  Alberta  Canada     0    4413146
-    ## 45  2020-03-06  Alberta  Canada     1    4413146
-    ## 46  2020-03-07  Alberta  Canada     1    4413146
-    ## 47  2020-03-08  Alberta  Canada     2    4413146
-    ## 48  2020-03-09  Alberta  Canada     3    4413146
-    ## 49  2020-03-10  Alberta  Canada     0    4413146
-    ## 50  2020-03-11  Alberta  Canada    12    4413146
-    ## 51  2020-03-12  Alberta  Canada     0    4413146
-    ## 52  2020-03-13  Alberta  Canada    10    4413146
-    ## 53  2020-03-14  Alberta  Canada     0    4413146
-    ## 54  2020-03-15  Alberta  Canada    10    4413146
-    ## 55  2020-03-16  Alberta  Canada    17    4413146
-    ## 56  2020-03-17  Alberta  Canada    18    4413146
-    ## 57  2020-03-18  Alberta  Canada    23    4413146
-    ## 58  2020-03-19  Alberta  Canada    22    4413146
-    ## 59  2020-03-20  Alberta  Canada    27    4413146
-    ## 60  2020-03-21  Alberta  Canada    49    4413146
-    ## 61  2020-03-22  Alberta  Canada    64    4413146
-    ## 62  2020-03-23  Alberta  Canada    42    4413146
-    ## 63  2020-03-24  Alberta  Canada    58    4413146
-    ## 64  2020-03-25  Alberta  Canada    -1    4413146
-    ## 65  2020-03-26  Alberta  Canada   128    4413146
-    ## 66  2020-03-27  Alberta  Canada    56    4413146
-    ## 67  2020-03-28  Alberta  Canada     0    4413146
-    ## 68  2020-03-29  Alberta  Canada    79    4413146
-    ## 69  2020-03-30  Alberta  Canada    40    4413146
-    ## 70  2020-03-31  Alberta  Canada    29    4413146
-    ## 71  2020-04-01  Alberta  Canada    64    4413146
-    ## 72  2020-04-02  Alberta  Canada   215    4413146
-    ## 73  2020-04-03  Alberta  Canada     0    4413146
-    ## 74  2020-04-04  Alberta  Canada   106    4413146
-    ## 75  2020-04-05  Alberta  Canada   106    4413146
-    ## 76  2020-04-06  Alberta  Canada    69    4413146
-    ## 77  2020-04-07  Alberta  Canada   123    4413146
-    ## 78  2020-04-08  Alberta  Canada     0    4413146
-    ## 79  2020-04-09  Alberta  Canada    50    4413146
-    ## 80  2020-04-10  Alberta  Canada    28    4413146
-    ## 81  2020-04-11  Alberta  Canada   116    4413146
-    ## 82  2020-04-12  Alberta  Canada     0    4413146
-    ## 83  2020-04-13  Alberta  Canada   165    4413146
-    ## 84  2020-04-14  Alberta  Canada   138    4413146
-    ## 85  2020-04-15  Alberta  Canada     0    4413146
-    ## 86  2020-04-16  Alberta  Canada   126    4413146
-    ## 87  2020-04-17  Alberta  Canada   401    4413146
-    ## 88  2020-04-18  Alberta  Canada   165    4413146
-    ## 89  2020-04-19  Alberta  Canada   241    4413146
-    ## 90  2020-04-20  Alberta  Canada   105    4413146
-    ## 91  2020-04-21  Alberta  Canada   187    4413146
-    ## 92  2020-04-22  Alberta  Canada   306    4413146
-    ## 93  2020-04-23  Alberta  Canada   319    4413146
-    ## 94  2020-04-24  Alberta  Canada   297    4413146
-    ## 95  2020-04-25  Alberta  Canada   216    4413146
-    ## 96  2020-04-26  Alberta  Canada   247    4413146
-    ## 97  2020-04-27  Alberta  Canada   216    4413146
-    ## 98  2020-04-28  Alberta  Canada   154    4413146
-    ## 99  2020-04-29  Alberta  Canada   315    4413146
-    ## 100 2020-04-30  Alberta  Canada   190    4413146
-    ## 101 2020-05-01  Alberta  Canada   218    4413146
-    ## 102 2020-05-02  Alberta  Canada    97    4413146
-    ## 103 2020-05-03  Alberta  Canada    96    4413146
-    ## 104 2020-05-04  Alberta  Canada    70    4413146
-    ## 105 2020-05-05  Alberta  Canada    57    4413146
-    ## 106 2020-05-06  Alberta  Canada    70    4413146
-    ## 107 2020-05-07  Alberta  Canada    54    4413146
-    ## 108 2020-05-08  Alberta  Canada    81    4413146
-    ## 109 2020-05-09  Alberta  Canada    59    4413146
-    ## 110 2020-05-10  Alberta  Canada    96    4413146
-    ## 111 2020-05-11  Alberta  Canada    47    4413146
-    ## 112 2020-05-12  Alberta  Canada    45    4413146
-    ## 113 2020-05-13  Alberta  Canada    62    4413146
-    ## 114 2020-05-14  Alberta  Canada    50    4413146
-    ## 115 2020-05-15  Alberta  Canada    58    4413146
-    ## 116 2020-05-16  Alberta  Canada    72    4413146
-    ## 117 2020-05-17  Alberta  Canada    57    4413146
-    ## 118 2020-05-18  Alberta  Canada    39    4413146
-    ## 119 2020-05-19  Alberta  Canada    33    4413146
-    ## 120 2020-05-20  Alberta  Canada    19    4413146
-    ## 121 2020-05-21  Alberta  Canada    33    4413146
-    ## 122 2020-05-22  Alberta  Canada    32    4413146
-    ## 123 2020-05-23  Alberta  Canada    18    4413146
-    ## 124 2020-05-24  Alberta  Canada    42    4413146
-    ## 125 2020-05-25  Alberta  Canada    19    4413146
-    ## 126 2020-05-26  Alberta  Canada    22    4413146
-    ## 127 2020-05-27  Alberta  Canada    25    4413146
-    ## 128 2020-05-28  Alberta  Canada    29    4413146
-    ## 129 2020-05-29  Alberta  Canada    24    4413146
-    ## 130 2020-05-30  Alberta  Canada    13    4413146
-    ## 131 2020-05-31  Alberta  Canada    18    4413146
-    ## 132 2020-06-01  Alberta  Canada    34    4413146
-    ## 133 2020-06-02  Alberta  Canada    13    4413146
-    ## 134 2020-06-03  Alberta  Canada    19    4413146
-    ## 135 2020-06-04  Alberta  Canada    15    4413146
-    ## 136 2020-06-05  Alberta  Canada     7    4413146
-    ## 137 2020-06-06  Alberta  Canada    40    4413146
-    ## 138 2020-06-07  Alberta  Canada     0    4413146
-    ## 139 2020-06-08  Alberta  Canada    64    4413146
-    ## 140 2020-06-09  Alberta  Canada    27    4413146
-    ## 141 2020-06-10  Alberta  Canada    47    4413146
-    ## 142 2020-06-11  Alberta  Canada    40    4413146
-    ## 143 2020-06-12  Alberta  Canada    30    4413146
-    ## 144 2020-06-13  Alberta  Canada    37    4413146
-    ## 145 2020-06-14  Alberta  Canada    50    4413146
-    ## 146 2020-06-15  Alberta  Canada    20    4413146
-    ## 147 2020-06-16  Alberta  Canada    29    4413146
-    ## 148 2020-06-17  Alberta  Canada    48    4413146
-    ## 149 2020-06-18  Alberta  Canada    49    4413146
-    ## 150 2020-06-19  Alberta  Canada    46    4413146
-    ## 151 2020-06-20  Alberta  Canada    48    4413146
-    ## 152 2020-06-21  Alberta  Canada    31    4413146
-    ## 153 2020-06-22  Alberta  Canada    32    4413146
-    ## 154 2020-06-23  Alberta  Canada    45    4413146
-    ## 155 2020-06-24  Alberta  Canada    44    4413146
-    ## 156 2020-06-25  Alberta  Canada    26    4413146
-    ## 157 2020-06-26  Alberta  Canada    37    4413146
-    ## 158 2020-06-27  Alberta  Canada    69    4413146
-    ## 159 2020-06-28  Alberta  Canada    39    4413146
-    ## 160 2020-06-29  Alberta  Canada    71    4413146
-    ## 161 2020-06-30  Alberta  Canada    41    4413146
-    ## 162 2020-07-01  Alberta  Canada     0    4413146
-    ## 163 2020-07-02  Alberta  Canada    94    4413146
-    ## 164 2020-07-03  Alberta  Canada    57    4413146
-    ## 165 2020-07-04  Alberta  Canada     0    4413146
-    ## 166 2020-07-05  Alberta  Canada     0    4413146
-    ## 167 2020-07-06  Alberta  Canada   130    4413146
-    ## 168 2020-07-07  Alberta  Canada    47    4413146
-    ## 169 2020-07-08  Alberta  Canada    46    4413146
-    ## 170 2020-07-09  Alberta  Canada    37    4413146
-    ## 171 2020-07-10  Alberta  Canada    77    4413146
-    ## 172 2020-07-11  Alberta  Canada     0    4413146
-    ## 173 2020-07-12  Alberta  Canada     0    4413146
-    ## 174 2020-07-13  Alberta  Canada   230    4413146
-    ## 175 2020-07-14  Alberta  Canada    86    4413146
+    ## .........
     ## 176 2020-07-15  Alberta  Canada    82    4413146
     ## 177 2020-07-16  Alberta  Canada   120    4413146
     ## 178 2020-07-17  Alberta  Canada   105    4413146
@@ -299,6 +135,8 @@ Data[1:200, ]
     ## 200 2020-08-08  Alberta  Canada     0    4413146
 
 - ต้องการแถวที่ 1-10, 15,16,19 และ 200 ในทุกคอลลัมภ์
+    
+    
     
 ``` r
 Data[c(1:10, 15, 16, 19, 200), ]
@@ -543,4 +381,4 @@ sqrt(mean(Covid_th_can_20$cases))
 
 ______
 Happy Coding ka
-สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
+กลับไปที่ [datastist.com](http://www.datastist.com)
