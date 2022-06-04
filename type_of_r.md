@@ -109,13 +109,13 @@ class(coronavirus)
 
 `dataset` นี้มีลักษณะเป็น `list` ซ้อนกันอยู่ โดยมีข้อมูลเป็น `data.frame` ใน `dataset` นี้ มีตัวแปรแบบกลุ่มที่เห็นได้ชัดคือ `country` และ `province` ในขณะที่ตัวแปรแบบต่อเนื่องคือ จำนวน `case` `population` (ที่เหลือเดี๋ยวสนุกแล้วกลับมาเล่นได้นะ) เราจะเรียกใช้เพียง country, province, case, population เท่านั้น วิธีการด้านล่างจะเรียกว่าวิธีการ `subset` ซึ่งจะมีการพูดถึงในส่วนถัดไป
 
-*subset ให้เหลือแค่ country, province, case, population*
+**subset ให้เหลือแค่ country, province, case, population**
 
-- 
 ``` r
 Data <- coronavirus[c("date", "province", "country", "cases", "population")]
 head(Data, 3)
 ```
+
 
     ##         date province country cases population
     ## 1 2020-01-22  Alberta  Canada     0    4413146
@@ -153,4 +153,4 @@ is.factor(Data$province)
 
 ______
 Happy Coding ka
-สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
+[datastist.com](http://www.datastist.com)
