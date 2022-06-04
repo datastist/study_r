@@ -255,9 +255,5 @@ head(data)
 บทความหน้าเราจะเรียนรู้ function ที่ใช้บ่อยใน R กันนะคะ
 
 
-
-------
-Happy Coding kha~
-
-
-Sirinapa
+- - -
+กลับไปที่ [Datastist.com](www.datastist.com)
