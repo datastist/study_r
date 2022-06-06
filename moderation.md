@@ -187,7 +187,7 @@ ggplot(data.sum, aes(x = friends, y = emmean, color = type)) +
 ![](docs/moderation_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 
 ประมาณนี้ค่า  
-จริงๆ ต้องขอบพระคุณ Kris Ariyabuddhiphongs มากกว่ก เพราะว่า แมวพยายามทำความให้มิติของ `moderation` ตัวเดียวมานานมาก (เคยทำแต่ซับซ้อน) เพราะ simple มากก็ไปไม่เป็นเหมือนกัน
+จริงๆ ต้องขอบพระคุณ @Kris Ariyabuddhiphongs มากกว่า เพราะว่า แมวพยายามทำความให้มิติของ `moderation` ตัวเดียวมานานมาก (เคยทำแต่ซับซ้อน) เพราะ simple มากก็ไปไม่เป็นเหมือนกัน
 
 
 ---
