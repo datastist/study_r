@@ -165,17 +165,17 @@ N100000a <- round(rtruncnorm(100000, a = -3, b = 3, mean = 0, sd = 1), 2)
 N100000b <- round(rtruncnorm(100000, a = -3, b = 3, mean = 1, sd = 1), 2)
 t.test(N100000a, N100000b, var.equal = TRUE)
 ```
-## 
-##  Two Sample t-test
-## 
-## data:  N100000a and N100000b
-## t = -217.93, df = 2e+05, p-value < 2.2e-16
-## alternative hypothesis: true difference in means is not equal to 0
-## 95 percent confidence interval:
-##  -0.9480150 -0.9311152
-## sample estimates:
-## mean of x mean of y 
-## 0.0025797 0.9421448
+    ## 
+    ##  Two Sample t-test
+    ## 
+    ## data:  N100000a and N100000b
+    ## t = -217.93, df = 2e+05, p-value < 2.2e-16
+    ## alternative hypothesis: true difference in means is not equal to 0
+    ## 95 percent confidence interval:
+    ##  -0.9480150 -0.9311152
+    ## sample estimates:
+    ## mean of x mean of y 
+    ## 0.0025797 0.9421448
 
 ถ้าเราเพิ่มจำนวนกลุ่ม ไปเรื่อย ๆ โดยให้ค่าเฉลี่ยและ SD คงเดิมเราจะพบว่าค่าทดสอบ t เพิ่มขึ้นมาก (t = -168.38) และเมื่อลองวาดกราฟ กราฟ
 Density จะสวยงามมาก ในขณะที่พื้นที่ใต้กราฟในส่วนของความแตกต่างน้อยลงเรื่อย ๆ
