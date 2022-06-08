@@ -1,4 +1,4 @@
-# Practical Vs. Statistical Significant
+# Practical Vs. Statistical Significance
 
 ในการวิเคราะห์ทางสถิติ ส่วนหนึ่งที่สำคัญมากในการตัดสินใจว่าเราจะปฎิเสธสมมติฐานว่าง หรือ `Null Hypothesis` หรือไม่นั้นก็คือ Power, alpha และ effect size อย่างที่เคยกล่าวมาก่อนหน้านี้
 
@@ -16,6 +16,8 @@ practical significance
 *Note* เพราการสร้างค่าข้อมูลจากคำสั่งใน R เป็นการสุ่ม อาจจะไม่ตรงกับที่ต้องการอย่างเฉพาะเจาะจง) กลุ่ม a = 1 และ กลุ่ม b = 2 โดยที่มีค่าเบี่ยงเบนมาตรฐาน = 1
 
 #### ตัวอย่างที่ 1
+
+
 ``` r
 set.seed(123321) #ตั้งค่าการสุ่ม
 library(truncnorm) #package ในการช่วยสุ่มค่า)
@@ -25,24 +27,25 @@ N40b <- round(rtruncnorm(40, a = -3, b = 3, mean = 1, sd = 1), 2)
 t.test(N40a, N40b, var.equal = TRUE, alternative = "less") # ใช้ independent t ในการทดสอบ
 ```
 
-## 
-##  Two Sample t-test
-## 
-## data:  N40a and N40b
-## t = -4.5302, df = 78, p-value = 1.045e-05
-## alternative hypothesis: true difference in means is less than 0
-## 95 percent confidence interval:
-##        -Inf -0.6958026
-## sample estimates:
-## mean of x mean of y 
-##  -0.03575   1.06425
+
+
+    ## 
+    ##  Two Sample t-test
+    ## 
+    ## data:  N40a and N40b
+    ## t = -4.5302, df = 78, p-value = 1.045e-05
+    ## alternative hypothesis: true difference in means is less than 0
+    ## 95 percent confidence interval:
+    ##        -Inf -0.6958026
+    ## sample estimates:
+    ## mean of x mean of y 
+    ##  -0.03575   1.06425
 
 
 จะเห็นได้ว่า เมื่อมีกลุ่มตัวอย่าง 2 กลุ่ม แล้วเราต้องการเปรียบเทียบค่าเฉลี่ยของสองกลุ่มนี้
 โดยที่แต่ละกลุ่มมีจำนวนตัวอย่าง 40 คน เราจะได้ค่า t = -4.53 และถึงนัยสำคัญทางสถิติที่ p &lt; 0.001
 
-การทดสอบ t critical value จะทดสอบโดยใช้ ค่า Degree of freedom และค่า alpha ที่เราตั้งไว้ ในกรณีตัวอย่าง degree of freedom จะเท่ากับ (n-1)\*k
-= 78 (k คือจำนวนกลุ่ม) และ alpha = 0.05 ซึ่งค่า Critical value (1-tailed) = 1.685
+การทดสอบ t critical value จะทดสอบโดยใช้ ค่า Degree of freedom และค่า alpha ที่เราตั้งไว้ ในกรณีตัวอย่าง degree of freedom จะเท่ากับ (n-1)\*k = 78 (k คือจำนวนกลุ่ม) และ alpha = 0.05 ซึ่งค่า Critical value (1-tailed) = 1.685
 
 #### ตัวอย่างที่ 2 กลุ่มตัวอย่างมีกลุ่มละ 10 คน
 
@@ -52,17 +55,17 @@ N10b <- round(rtruncnorm(10, a = -3, b = 3, mean = 1, sd = 1), 2)
 t.test(N10a, N10b, var.equal = TRUE)
 ```
 
-## 
-##  Two Sample t-test
-## 
-## data:  N10a and N10b
-## t = -2.2322, df = 18, p-value = 0.03854
-## alternative hypothesis: true difference in means is not equal to 0
-## 95 percent confidence interval:
-##  -1.71405712 -0.05194288
-## sample estimates:
-## mean of x mean of y 
-##     0.164     1.047
+    ## 
+    ##  Two Sample t-test
+    ## 
+    ## data:  N10a and N10b
+    ## t = -2.2322, df = 18, p-value = 0.03854
+    ## alternative hypothesis: true difference in means is not equal to 0
+    ## 95 percent confidence interval:
+    ##  -1.71405712 -0.05194288
+    ## sample estimates:
+    ## mean of x mean of y 
+    ##     0.164     1.047
 
 เมื่อเราลดกลุ่มตัวอย่างให้เหลือเพียง 10 คน แต่คงค่าเฉลี่ยไว้เท่าเดิม เราจะพบว่าค่าทดสอบ t = -2.23 และพบนัยสำคัญทางสถิติ ที่ p &lt; 0.05
 
@@ -74,17 +77,17 @@ N100b <- round(rtruncnorm(100, a = -3, b = 3, mean = 1, sd = 1), 2)
 t.test(N100a, N100b, var.equal = TRUE)
 ```
 
-## 
-##  Two Sample t-test
-## 
-## data:  N100a and N100b
-## t = -8.1148, df = 198, p-value = 5.053e-14
-## alternative hypothesis: true difference in means is not equal to 0
-## 95 percent confidence interval:
-##  -1.3531448 -0.8240552
-## sample estimates:
-## mean of x mean of y 
-##    0.0539    1.1425
+    ## 
+    ##  Two Sample t-test
+    ## 
+    ## data:  N100a and N100b
+    ## t = -8.1148, df = 198, p-value = 5.053e-14
+    ## alternative hypothesis: true difference in means is not equal to 0
+    ## 95 percent confidence interval:
+    ##  -1.3531448 -0.8240552
+    ## sample estimates:
+    ## mean of x mean of y 
+    ##    0.0539    1.1425
 
 เมื่อเราเพิ่มกลุ่มตัวอย่างเป็น 100 คนทั้งสองกลุ่ม และคงค่าเฉลี่ยไว้ (SD = 1) ค่าของการทดสอบ t = -8.11 และพบนัยสำคัญทางสถิติที่ p &lt; 0.001
 
@@ -209,5 +212,4 @@ gridExtra::grid.arrange(small, medium, big, Non.pratical, ncol = 2, nrow = 2)
 ถ้าใครยังไม่เข้าเรื่อง Type I & Type II error คลิกเลยค่า [Type Error]()
 
 ______
-Happy Coding ka
-สามารถกดติดตามและ subscribe ได้ที่ [datastist.com](http://www.datastist.com)
+กลับไปที่ [datastist.com](http://www.datastist.com)
