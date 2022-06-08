@@ -141,11 +141,9 @@ ggplot(data_w) +
 Type I error หรือ False positive สูงขึ้น (see Type I & Type II error)
 
 ## Sum of Square in two-way ANOVA
-
-(see One-way ANOVA) \*\*
+(see One-way ANOVA)
 
 เราจะสมมติว่าข้อมูลในแต่ละกลุ่มมาจากกลุ่มอิสระจากกันก่อนนะคะ เพื่อความเข้าใจในการวิเคราะห์แบบ two-way ANOVA นี้
-
 แต่เมื่อนำไปวิเคราะห์แบบ two-way ANOVA แล้วจะพบผลที่ชัดเจนมากขึ้น แต่ว่าทีนี้ Sum of Square ที่นำมาวิเคราะห์จะมี 3 ประเภทค่ะ
 
 
@@ -164,8 +162,8 @@ Type I error หรือ False positive สูงขึ้น (see Type I & Typ
     เข้าพร้อมกันโดยใช้ความแปรปรวนของทั้งคู่ แต่จะไม่คำนวณส่วนที่เป็น
     interaction effect ให้เรา
 
-    -   SS(A \\| B) สำหรับตัวแปร Counseling –&gt; Drugs
-    -   SS(B \\| A) สำหรับตัวแปร Drugs –&gt; Counseling
+    -   SS(A | B) สำหรับตัวแปร Counseling –&gt; Drugs
+    -   SS(B | A) สำหรับตัวแปร Drugs –&gt; Counseling
 
 -   Type III : จะเป็นการผสมวิธีกันระหว่าง Type I & II
     คือการที่ตัวแปรที่ใส่เข้าสมการ 1.) จะไม่เรียงลำดับ และ 2.)
@@ -205,9 +203,7 @@ Type I error หรือ False positive สูงขึ้น (see Type I & Typ
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 ทีนี้ผลจะออกมาไม่แตกต่างนักกันระหว่าง Sum of Square ของ type I และ Type III เพราะว่ามี equal variances
-
 โดยปกติแล้ว Sum of Square ในการทดสอบที่แตกต่างกัน จะมีความเสมือนกัน แต่อธิบายแตกต่างกัน
-
 เช่น ANOVA vs. Linear Regression
 
 **ANOVA**
