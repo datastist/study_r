@@ -206,22 +206,8 @@ Type I error หรือ False positive สูงขึ้น (see Type I & Typ
 โดยปกติแล้ว Sum of Square ในการทดสอบที่แตกต่างกัน จะมีความเสมือนกัน แต่อธิบายแตกต่างกัน
 เช่น ANOVA vs. Linear Regression
 
-**ANOVA**
-![](docs/Sum_of_Sq_files/figure-markdown_strict/1.png)
+เราไปต่อที่การทดสอบข้อตกลงเบื้องต้นที่สุดกันคราวหน้าน้า
 
 
-![](docs/Sum_of_Sq_files/figure-markdown_strict/2.png)
-
-
-![](docs/Sum_of_Sq_files/figure-markdown_strict/3.png)
-
-
-
-``` r
-    plot(model_typeI, 1)
-```
-
-
-![](docs/Sum_of_Sq_files/figure-markdown_strict/unnamed-chunk-6-1.png)
-
-ยังไม่จบค่ะ เหนื่อยซะก่อน ไว้มาต่อน้า~
+------
+กลับไปที่ [Datastist.com](www.datastist.com)
