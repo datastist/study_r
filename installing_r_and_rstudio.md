@@ -18,7 +18,8 @@
 
 R studio คือ Environment สำหรับ R program โดยเฉพาะ ซึ่งจะเน้นการเขียน R language แต่ (2022) เราสามารถเขียนภาษาอื่นเช่น python หรือ css ใน R ได้้ด้วยค่า
 
-    [http://www.rstudio.org/download/desktop](http://www.rstudio.org/download/desktop) #สำหรับ Desktop version
+    [Desktop](http://www.rstudio.org/download/desktop) 
+    #สำหรับ Desktop version
 
 จากนั้นเราก็ทำตามขั้นตอนการลงโปรแกรมอีกครั้ง
 
