@@ -8,7 +8,9 @@
      
      
      #Thailand
-     #http://mirrors.psu.ac.th/pub/cran/	    
+     
+     [http://mirrors.psu.ac.th/pub/cran/](http://mirrors.psu.ac.th/pub/cran/)
+     
      #Prince of Songkla University, Hatyai
 
 จากนั้นก็ทำตามขั้นตอนการลงโปรแกรม
