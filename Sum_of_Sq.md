@@ -148,29 +148,29 @@ Type I error หรือ False positive สูงขึ้น (see Type I & Typ
 
 
 
--   Type I : จะเป็นการใส่ตัวแปรที่ 1 เช่น (counseling) ในโมเดลเข้าไป
+-   Type I: จะเป็นการใส่ตัวแปรที่ 1 เช่น (counseling) ในโมเดลเข้าไป
     แล้วใส่ค่าที่เหลือสูงสุดของตัวแปรที่ 2 (drugs) เข้าไปในโมเดล
     แล้วจึงนำค่าเหลือ (residual) เข้าตามไป
 
-    -   SS(A) สำหรับตัวแปร Counseling
-    -   SS(B | A) สำหรับตัวแปร Drugs \* | อ่านว่า given (ก็ต่อเมื่อ)
-    -   SS(AB | B, A) ถ้าต้องการหา interaction effect ซึ่ง type I
+    SS(A) สำหรับตัวแปร Counseling
+    SS(B | A) สำหรับตัวแปร Drugs \* | อ่านว่า given (ก็ต่อเมื่อ)
+    SS(AB | B, A) ถ้าต้องการหา interaction effect ซึ่ง type I
         จะไม่เหมาะกับการหา effect
         ที่มาผสมกันเพราะเป็นการนำตัวแปรเข้าทีละตัวค่ะ
 
--   Type II : A — &gt; B, A &lt;– B คือการที่ใส่ตัวแปร A และ B
+-   Type II: คือการที่ใส่ตัวแปร A และ B
     เข้าพร้อมกันโดยใช้ความแปรปรวนของทั้งคู่ แต่จะไม่คำนวณส่วนที่เป็น
     interaction effect ให้เรา
 
-    -   SS(A | B) สำหรับตัวแปร Counseling –&gt; Drugs
-    -   SS(B | A) สำหรับตัวแปร Drugs –&gt; Counseling
+    SS(A | B) สำหรับตัวแปร Counseling –&gt; Drugs
+    SS(B | A) สำหรับตัวแปร Drugs –&gt; Counseling
 
--   Type III : จะเป็นการผสมวิธีกันระหว่าง Type I & II
+-   Type III: จะเป็นการผสมวิธีกันระหว่าง Type I & II
     คือการที่ตัวแปรที่ใส่เข้าสมการ 1.) จะไม่เรียงลำดับ และ 2.)
     สามารถคำนวณ interaction effect ได้
 
-    -   SS(A | B, AB) สำหรับตัวแปร Counseling —&gt; Counseling\*Drugs
-    -   SS(B | A, AB) สำหรับตัวแปร Drugs —&gt; Counseling\*Drugs
+    SS(A | B, AB) สำหรับตัวแปร Counseling —&gt; Counseling\*Drugs
+    SS(B | A, AB) สำหรับตัวแปร Drugs —&gt; Counseling\*Drugs
 
 
 
